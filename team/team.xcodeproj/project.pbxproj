@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18B998821BF07574006B3FBB /* ScheduleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B998811BF07574006B3FBB /* ScheduleView.m */; settings = {ASSET_TAGS = (); }; };
+		18B9988A1BF08225006B3FBB /* ScheduleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B998891BF08225006B3FBB /* ScheduleCell.m */; settings = {ASSET_TAGS = (); }; };
+		18B9989B1BF08C9E006B3FBB /* SelectDateController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B9989A1BF08C9E006B3FBB /* SelectDateController.m */; settings = {ASSET_TAGS = (); }; };
+		18B998A11BF08D68006B3FBB /* SelectDateView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B998A01BF08D68006B3FBB /* SelectDateView.m */; settings = {ASSET_TAGS = (); }; };
+		18B998A41BF09357006B3FBB /* ScheduleInfoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B998A31BF09357006B3FBB /* ScheduleInfoController.m */; settings = {ASSET_TAGS = (); }; };
+		18B998AA1BF093C5006B3FBB /* ScheduleInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B998A91BF093C5006B3FBB /* ScheduleInfoView.m */; settings = {ASSET_TAGS = (); }; };
+		18B998AD1BF0D176006B3FBB /* Schedule.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B998AC1BF0D175006B3FBB /* Schedule.m */; settings = {ASSET_TAGS = (); }; };
+		18B998B01BF0D277006B3FBB /* Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B998AF1BF0D277006B3FBB /* Helper.m */; settings = {ASSET_TAGS = (); }; };
 		C26CF85A1BF05CD8006E1D5E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C26CF8591BF05CD8006E1D5E /* main.m */; };
 		C26CF85D1BF05CD8006E1D5E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C26CF85C1BF05CD8006E1D5E /* AppDelegate.m */; };
 		C26CF8601BF05CD8006E1D5E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C26CF85F1BF05CD8006E1D5E /* ViewController.m */; };
@@ -26,12 +34,30 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		18B998801BF07574006B3FBB /* ScheduleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScheduleView.h; sourceTree = "<group>"; };
+		18B998811BF07574006B3FBB /* ScheduleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScheduleView.m; sourceTree = "<group>"; };
+		18B998841BF0769E006B3FBB /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		18B998881BF08225006B3FBB /* ScheduleCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScheduleCell.h; sourceTree = "<group>"; };
+		18B998891BF08225006B3FBB /* ScheduleCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScheduleCell.m; sourceTree = "<group>"; };
+		18B9988C1BF086F3006B3FBB /* Hong.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Hong.h; sourceTree = "<group>"; };
+		18B998991BF08C9E006B3FBB /* SelectDateController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectDateController.h; sourceTree = "<group>"; };
+		18B9989A1BF08C9E006B3FBB /* SelectDateController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectDateController.m; sourceTree = "<group>"; };
+		18B9989F1BF08D68006B3FBB /* SelectDateView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectDateView.h; sourceTree = "<group>"; };
+		18B998A01BF08D68006B3FBB /* SelectDateView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectDateView.m; sourceTree = "<group>"; };
+		18B998A21BF09357006B3FBB /* ScheduleInfoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScheduleInfoController.h; sourceTree = "<group>"; };
+		18B998A31BF09357006B3FBB /* ScheduleInfoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScheduleInfoController.m; sourceTree = "<group>"; };
+		18B998A81BF093C5006B3FBB /* ScheduleInfoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScheduleInfoView.h; sourceTree = "<group>"; };
+		18B998A91BF093C5006B3FBB /* ScheduleInfoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScheduleInfoView.m; sourceTree = "<group>"; };
+		18B998AB1BF0D175006B3FBB /* Schedule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Schedule.h; sourceTree = "<group>"; };
+		18B998AC1BF0D175006B3FBB /* Schedule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Schedule.m; sourceTree = "<group>"; };
+		18B998AE1BF0D277006B3FBB /* Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Helper.h; sourceTree = "<group>"; };
+		18B998AF1BF0D277006B3FBB /* Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Helper.m; sourceTree = "<group>"; };
 		C26CF8551BF05CD8006E1D5E /* team.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = team.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C26CF8591BF05CD8006E1D5E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C26CF85B1BF05CD8006E1D5E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C26CF85C1BF05CD8006E1D5E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		C26CF85E1BF05CD8006E1D5E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		C26CF85F1BF05CD8006E1D5E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = ../../ViewController.m; sourceTree = "<group>"; };
+		C26CF85F1BF05CD8006E1D5E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		C26CF8621BF05CD8006E1D5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C26CF8641BF05CD8006E1D5E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C26CF8671BF05CD8006E1D5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -56,7 +82,6 @@
 		C26CF8971BF05E79006E1D5E /* BirthdayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BirthdayViewController.m; sourceTree = "<group>"; };
 		C26CF8991BF05E82006E1D5E /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		C26CF89A1BF05E82006E1D5E /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
-		C26CF89C1BF05EA4006E1D5E /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +95,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		18B998831BF0769E006B3FBB /* Header */ = {
+			isa = PBXGroup;
+			children = (
+				18B998841BF0769E006B3FBB /* PrefixHeader.pch */,
+				18B9988C1BF086F3006B3FBB /* Hong.h */,
+			);
+			name = Header;
+			path = team/xinqing/Header;
+			sourceTree = SOURCE_ROOT;
+		};
 		C26CF84C1BF05CD8006E1D5E = {
 			isa = PBXGroup;
 			children = (
@@ -93,6 +128,7 @@
 				C26CF85C1BF05CD8006E1D5E /* AppDelegate.m */,
 				C26CF86F1BF05CE7006E1D5E /* xinqing */,
 				C26CF85E1BF05CD8006E1D5E /* ViewController.h */,
+				C26CF85F1BF05CD8006E1D5E /* ViewController.m */,
 				C26CF8641BF05CD8006E1D5E /* Assets.xcassets */,
 				C26CF8661BF05CD8006E1D5E /* LaunchScreen.storyboard */,
 				C26CF8691BF05CD8006E1D5E /* Info.plist */,
@@ -172,19 +208,10 @@
 			path = WriteDiary;
 			sourceTree = "<group>";
 		};
-		C26CF8751BF05CE7006E1D5E /* Header */ = {
-			isa = PBXGroup;
-			children = (
-				C26CF89C1BF05EA4006E1D5E /* PrefixHeader.pch */,
-			);
-			name = Header;
-			path = ../Header;
-			sourceTree = "<group>";
-		};
 		C26CF8761BF05CE7006E1D5E /* Macro */ = {
 			isa = PBXGroup;
 			children = (
-				C26CF8751BF05CE7006E1D5E /* Header */,
+				18B998831BF0769E006B3FBB /* Header */,
 			);
 			path = Macro;
 			sourceTree = "<group>";
@@ -237,8 +264,23 @@
 			isa = PBXGroup;
 			children = (
 				C26CF8811BF05DDB006E1D5E /* ScheduleViewController.h */,
-				C26CF85F1BF05CD8006E1D5E /* ViewController.m */,
 				C26CF8821BF05DDB006E1D5E /* ScheduleViewController.m */,
+				18B998801BF07574006B3FBB /* ScheduleView.h */,
+				18B998811BF07574006B3FBB /* ScheduleView.m */,
+				18B998881BF08225006B3FBB /* ScheduleCell.h */,
+				18B998891BF08225006B3FBB /* ScheduleCell.m */,
+				18B998991BF08C9E006B3FBB /* SelectDateController.h */,
+				18B9989A1BF08C9E006B3FBB /* SelectDateController.m */,
+				18B9989F1BF08D68006B3FBB /* SelectDateView.h */,
+				18B998A01BF08D68006B3FBB /* SelectDateView.m */,
+				18B998A21BF09357006B3FBB /* ScheduleInfoController.h */,
+				18B998A31BF09357006B3FBB /* ScheduleInfoController.m */,
+				18B998A81BF093C5006B3FBB /* ScheduleInfoView.h */,
+				18B998A91BF093C5006B3FBB /* ScheduleInfoView.m */,
+				18B998AB1BF0D175006B3FBB /* Schedule.h */,
+				18B998AC1BF0D175006B3FBB /* Schedule.m */,
+				18B998AE1BF0D277006B3FBB /* Helper.h */,
+				18B998AF1BF0D277006B3FBB /* Helper.m */,
 			);
 			path = "TheSchedule（日程）";
 			sourceTree = "<group>";
@@ -325,15 +367,23 @@
 				C26CF8921BF05E5B006E1D5E /* WriteDiaryViewController.m in Sources */,
 				C26CF8601BF05CD8006E1D5E /* ViewController.m in Sources */,
 				C26CF8801BF05DC8006E1D5E /* WeatherViewController.m in Sources */,
+				18B9989B1BF08C9E006B3FBB /* SelectDateController.m in Sources */,
+				18B998B01BF0D277006B3FBB /* Helper.m in Sources */,
 				C26CF8861BF05DFB006E1D5E /* StarViewController.m in Sources */,
 				C26CF89B1BF05E82006E1D5E /* MainViewController.m in Sources */,
+				18B9988A1BF08225006B3FBB /* ScheduleCell.m in Sources */,
+				18B998AA1BF093C5006B3FBB /* ScheduleInfoView.m in Sources */,
 				C26CF8831BF05DDB006E1D5E /* ScheduleViewController.m in Sources */,
 				C26CF8981BF05E79006E1D5E /* BirthdayViewController.m in Sources */,
+				18B998AD1BF0D176006B3FBB /* Schedule.m in Sources */,
+				18B998821BF07574006B3FBB /* ScheduleView.m in Sources */,
 				C26CF85D1BF05CD8006E1D5E /* AppDelegate.m in Sources */,
 				C26CF85A1BF05CD8006E1D5E /* main.m in Sources */,
+				18B998A11BF08D68006B3FBB /* SelectDateView.m in Sources */,
 				C26CF8891BF05E1A006E1D5E /* DailyViewController.m in Sources */,
 				C26CF88C1BF05E24006E1D5E /* QRViewController.m in Sources */,
 				C26CF88F1BF05E44006E1D5E /* LookDiaryViewController.m in Sources */,
+				18B998A41BF09357006B3FBB /* ScheduleInfoController.m in Sources */,
 				C26CF8951BF05E6A006E1D5E /* CalendarViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -447,6 +497,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = /Users/apple/Desktop/Team_pro/team/team/xinqing/Header/PrefixHeader.pch;
 				INFOPLIST_FILE = team/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = niuhailei.team;
@@ -458,6 +509,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = /Users/apple/Desktop/Team_pro/team/team/xinqing/Header/PrefixHeader.pch;
 				INFOPLIST_FILE = team/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = niuhailei.team;
