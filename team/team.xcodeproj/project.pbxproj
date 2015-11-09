@@ -27,10 +27,15 @@
 		C26CF8891BF05E1A006E1D5E /* DailyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C26CF8881BF05E1A006E1D5E /* DailyViewController.m */; settings = {ASSET_TAGS = (); }; };
 		C26CF88C1BF05E24006E1D5E /* QRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C26CF88B1BF05E24006E1D5E /* QRViewController.m */; settings = {ASSET_TAGS = (); }; };
 		C26CF88F1BF05E44006E1D5E /* LookDiaryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C26CF88E1BF05E44006E1D5E /* LookDiaryViewController.m */; settings = {ASSET_TAGS = (); }; };
-		C26CF8921BF05E5B006E1D5E /* WriteDiaryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C26CF8911BF05E5B006E1D5E /* WriteDiaryViewController.m */; settings = {ASSET_TAGS = (); }; };
 		C26CF8951BF05E6A006E1D5E /* CalendarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C26CF8941BF05E6A006E1D5E /* CalendarViewController.m */; settings = {ASSET_TAGS = (); }; };
 		C26CF8981BF05E79006E1D5E /* BirthdayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C26CF8971BF05E79006E1D5E /* BirthdayViewController.m */; settings = {ASSET_TAGS = (); }; };
 		C26CF89B1BF05E82006E1D5E /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C26CF89A1BF05E82006E1D5E /* MainViewController.m */; settings = {ASSET_TAGS = (); }; };
+		C29D3FFE1BF0E40B00CABAF9 /* NIU.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C29D3FFD1BF0E40B00CABAF9 /* NIU.storyboard */; settings = {ASSET_TAGS = (); }; };
+		C29D40091BF0E58E00CABAF9 /* WaterFallFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = C29D40011BF0E58E00CABAF9 /* WaterFallFlowLayout.m */; settings = {ASSET_TAGS = (); }; };
+		C29D400A1BF0E58E00CABAF9 /* WaterFallUICollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C29D40031BF0E58E00CABAF9 /* WaterFallUICollectionViewCell.m */; settings = {ASSET_TAGS = (); }; };
+		C29D400B1BF0E58E00CABAF9 /* WriteDiaryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C29D40051BF0E58E00CABAF9 /* WriteDiaryViewController.m */; settings = {ASSET_TAGS = (); }; };
+		C29D400C1BF0E58E00CABAF9 /* WriteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C29D40071BF0E58E00CABAF9 /* WriteViewController.m */; settings = {ASSET_TAGS = (); }; };
+		C29D400D1BF0E58E00CABAF9 /* xin.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C29D40081BF0E58E00CABAF9 /* xin.jpg */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -74,14 +79,22 @@
 		C26CF88B1BF05E24006E1D5E /* QRViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QRViewController.m; sourceTree = "<group>"; };
 		C26CF88D1BF05E44006E1D5E /* LookDiaryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LookDiaryViewController.h; sourceTree = "<group>"; };
 		C26CF88E1BF05E44006E1D5E /* LookDiaryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LookDiaryViewController.m; sourceTree = "<group>"; };
-		C26CF8901BF05E5B006E1D5E /* WriteDiaryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WriteDiaryViewController.h; sourceTree = "<group>"; };
-		C26CF8911BF05E5B006E1D5E /* WriteDiaryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WriteDiaryViewController.m; sourceTree = "<group>"; };
 		C26CF8931BF05E6A006E1D5E /* CalendarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarViewController.h; sourceTree = "<group>"; };
 		C26CF8941BF05E6A006E1D5E /* CalendarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarViewController.m; sourceTree = "<group>"; };
 		C26CF8961BF05E79006E1D5E /* BirthdayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BirthdayViewController.h; sourceTree = "<group>"; };
 		C26CF8971BF05E79006E1D5E /* BirthdayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BirthdayViewController.m; sourceTree = "<group>"; };
 		C26CF8991BF05E82006E1D5E /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		C26CF89A1BF05E82006E1D5E /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		C29D3FFD1BF0E40B00CABAF9 /* NIU.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = NIU.storyboard; sourceTree = "<group>"; };
+		C29D40001BF0E58E00CABAF9 /* WaterFallFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaterFallFlowLayout.h; sourceTree = "<group>"; };
+		C29D40011BF0E58E00CABAF9 /* WaterFallFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaterFallFlowLayout.m; sourceTree = "<group>"; };
+		C29D40021BF0E58E00CABAF9 /* WaterFallUICollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaterFallUICollectionViewCell.h; sourceTree = "<group>"; };
+		C29D40031BF0E58E00CABAF9 /* WaterFallUICollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaterFallUICollectionViewCell.m; sourceTree = "<group>"; };
+		C29D40041BF0E58E00CABAF9 /* WriteDiaryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WriteDiaryViewController.h; sourceTree = "<group>"; };
+		C29D40051BF0E58E00CABAF9 /* WriteDiaryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WriteDiaryViewController.m; sourceTree = "<group>"; };
+		C29D40061BF0E58E00CABAF9 /* WriteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WriteViewController.h; sourceTree = "<group>"; };
+		C29D40071BF0E58E00CABAF9 /* WriteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WriteViewController.m; sourceTree = "<group>"; };
+		C29D40081BF0E58E00CABAF9 /* xin.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = xin.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -184,8 +197,8 @@
 		C26CF8721BF05CE7006E1D5E /* Diary */ = {
 			isa = PBXGroup;
 			children = (
+				C29D3FFF1BF0E58E00CABAF9 /* WriteDiary1 */,
 				C26CF8731BF05CE7006E1D5E /* LookDiary */,
-				C26CF8741BF05CE7006E1D5E /* WriteDiary */,
 			);
 			path = Diary;
 			sourceTree = "<group>";
@@ -197,15 +210,6 @@
 				C26CF88E1BF05E44006E1D5E /* LookDiaryViewController.m */,
 			);
 			path = LookDiary;
-			sourceTree = "<group>";
-		};
-		C26CF8741BF05CE7006E1D5E /* WriteDiary */ = {
-			isa = PBXGroup;
-			children = (
-				C26CF8901BF05E5B006E1D5E /* WriteDiaryViewController.h */,
-				C26CF8911BF05E5B006E1D5E /* WriteDiaryViewController.m */,
-			);
-			path = WriteDiary;
 			sourceTree = "<group>";
 		};
 		C26CF8761BF05CE7006E1D5E /* Macro */ = {
@@ -256,6 +260,7 @@
 			isa = PBXGroup;
 			children = (
 				C26CF8611BF05CD8006E1D5E /* Main.storyboard */,
+				C29D3FFD1BF0E40B00CABAF9 /* NIU.storyboard */,
 			);
 			path = StoryBoard;
 			sourceTree = "<group>";
@@ -292,6 +297,22 @@
 				C26CF87F1BF05DC8006E1D5E /* WeatherViewController.m */,
 			);
 			path = Weather;
+			sourceTree = "<group>";
+		};
+		C29D3FFF1BF0E58E00CABAF9 /* WriteDiary1 */ = {
+			isa = PBXGroup;
+			children = (
+				C29D40001BF0E58E00CABAF9 /* WaterFallFlowLayout.h */,
+				C29D40011BF0E58E00CABAF9 /* WaterFallFlowLayout.m */,
+				C29D40021BF0E58E00CABAF9 /* WaterFallUICollectionViewCell.h */,
+				C29D40031BF0E58E00CABAF9 /* WaterFallUICollectionViewCell.m */,
+				C29D40041BF0E58E00CABAF9 /* WriteDiaryViewController.h */,
+				C29D40051BF0E58E00CABAF9 /* WriteDiaryViewController.m */,
+				C29D40061BF0E58E00CABAF9 /* WriteViewController.h */,
+				C29D40071BF0E58E00CABAF9 /* WriteViewController.m */,
+				C29D40081BF0E58E00CABAF9 /* xin.jpg */,
+			);
+			path = WriteDiary1;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -352,6 +373,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				C26CF8681BF05CD8006E1D5E /* LaunchScreen.storyboard in Resources */,
+				C29D400D1BF0E58E00CABAF9 /* xin.jpg in Resources */,
+				C29D3FFE1BF0E40B00CABAF9 /* NIU.storyboard in Resources */,
 				C26CF8651BF05CD8006E1D5E /* Assets.xcassets in Resources */,
 				C26CF8631BF05CD8006E1D5E /* Main.storyboard in Resources */,
 			);
@@ -364,7 +387,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C26CF8921BF05E5B006E1D5E /* WriteDiaryViewController.m in Sources */,
 				C26CF8601BF05CD8006E1D5E /* ViewController.m in Sources */,
 				C26CF8801BF05DC8006E1D5E /* WeatherViewController.m in Sources */,
 				18B9989B1BF08C9E006B3FBB /* SelectDateController.m in Sources */,
@@ -374,15 +396,19 @@
 				18B9988A1BF08225006B3FBB /* ScheduleCell.m in Sources */,
 				18B998AA1BF093C5006B3FBB /* ScheduleInfoView.m in Sources */,
 				C26CF8831BF05DDB006E1D5E /* ScheduleViewController.m in Sources */,
+				C29D40091BF0E58E00CABAF9 /* WaterFallFlowLayout.m in Sources */,
 				C26CF8981BF05E79006E1D5E /* BirthdayViewController.m in Sources */,
 				18B998AD1BF0D176006B3FBB /* Schedule.m in Sources */,
 				18B998821BF07574006B3FBB /* ScheduleView.m in Sources */,
+				C29D400C1BF0E58E00CABAF9 /* WriteViewController.m in Sources */,
 				C26CF85D1BF05CD8006E1D5E /* AppDelegate.m in Sources */,
 				C26CF85A1BF05CD8006E1D5E /* main.m in Sources */,
+				C29D400B1BF0E58E00CABAF9 /* WriteDiaryViewController.m in Sources */,
 				18B998A11BF08D68006B3FBB /* SelectDateView.m in Sources */,
 				C26CF8891BF05E1A006E1D5E /* DailyViewController.m in Sources */,
 				C26CF88C1BF05E24006E1D5E /* QRViewController.m in Sources */,
 				C26CF88F1BF05E44006E1D5E /* LookDiaryViewController.m in Sources */,
+				C29D400A1BF0E58E00CABAF9 /* WaterFallUICollectionViewCell.m in Sources */,
 				18B998A41BF09357006B3FBB /* ScheduleInfoController.m in Sources */,
 				C26CF8951BF05E6A006E1D5E /* CalendarViewController.m in Sources */,
 			);
