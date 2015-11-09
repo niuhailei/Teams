@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface ScheduleViewController : UIViewController
+@property (nonatomic,strong)NSString *dateStr;
 
 @end
