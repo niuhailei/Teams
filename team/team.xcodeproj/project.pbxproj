@@ -9,8 +9,7 @@
 /* Begin PBXBuildFile section */
 		C26CF85A1BF05CD8006E1D5E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C26CF8591BF05CD8006E1D5E /* main.m */; };
 		C26CF85D1BF05CD8006E1D5E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C26CF85C1BF05CD8006E1D5E /* AppDelegate.m */; };
-		C26CF8601BF05CD8006E1D5E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C26CF85F1BF05CD8006E1D5E /* ViewController.m */; };
-		C26CF8631BF05CD8006E1D5E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C26CF8611BF05CD8006E1D5E /* Main.storyboard */; };
+		C26CF8631BF05CD8006E1D5E /* NIU.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C26CF8611BF05CD8006E1D5E /* NIU.storyboard */; };
 		C26CF8651BF05CD8006E1D5E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C26CF8641BF05CD8006E1D5E /* Assets.xcassets */; };
 		C26CF8681BF05CD8006E1D5E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C26CF8661BF05CD8006E1D5E /* LaunchScreen.storyboard */; };
 		C26CF8801BF05DC8006E1D5E /* WeatherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C26CF87F1BF05DC8006E1D5E /* WeatherViewController.m */; settings = {ASSET_TAGS = (); }; };
@@ -23,6 +22,18 @@
 		C26CF8951BF05E6A006E1D5E /* CalendarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C26CF8941BF05E6A006E1D5E /* CalendarViewController.m */; settings = {ASSET_TAGS = (); }; };
 		C26CF8981BF05E79006E1D5E /* BirthdayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C26CF8971BF05E79006E1D5E /* BirthdayViewController.m */; settings = {ASSET_TAGS = (); }; };
 		C26CF89B1BF05E82006E1D5E /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C26CF89A1BF05E82006E1D5E /* MainViewController.m */; settings = {ASSET_TAGS = (); }; };
+		C26CF8A71BF08C90006E1D5E /* WaterFallFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = C26CF8A41BF08C90006E1D5E /* WaterFallFlowLayout.m */; settings = {ASSET_TAGS = (); }; };
+		C26CF8A81BF08C90006E1D5E /* WaterFallUICollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C26CF8A61BF08C90006E1D5E /* WaterFallUICollectionViewCell.m */; settings = {ASSET_TAGS = (); }; };
+		C26CF8AE1BF090BF006E1D5E /* jian.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C26CF8AA1BF090BF006E1D5E /* jian.jpg */; settings = {ASSET_TAGS = (); }; };
+		C26CF8AF1BF090BF006E1D5E /* jian3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C26CF8AB1BF090BF006E1D5E /* jian3.jpg */; settings = {ASSET_TAGS = (); }; };
+		C26CF8B01BF090BF006E1D5E /* jiang4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C26CF8AC1BF090BF006E1D5E /* jiang4.jpg */; settings = {ASSET_TAGS = (); }; };
+		C26CF8B11BF090BF006E1D5E /* tu.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C26CF8AD1BF090BF006E1D5E /* tu.jpg */; settings = {ASSET_TAGS = (); }; };
+		C29D3FF11BF0A27300CABAF9 /* WriteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C29D3FF01BF0A27300CABAF9 /* WriteViewController.m */; settings = {ASSET_TAGS = (); }; };
+		C29D3FF71BF0A45100CABAF9 /* t3.png in Resources */ = {isa = PBXBuildFile; fileRef = C29D3FF31BF0A45100CABAF9 /* t3.png */; settings = {ASSET_TAGS = (); }; };
+		C29D3FF81BF0A45100CABAF9 /* tu3.png in Resources */ = {isa = PBXBuildFile; fileRef = C29D3FF41BF0A45100CABAF9 /* tu3.png */; settings = {ASSET_TAGS = (); }; };
+		C29D3FF91BF0A45100CABAF9 /* tui1.png in Resources */ = {isa = PBXBuildFile; fileRef = C29D3FF51BF0A45100CABAF9 /* tui1.png */; settings = {ASSET_TAGS = (); }; };
+		C29D3FFA1BF0A45100CABAF9 /* yuantu.png in Resources */ = {isa = PBXBuildFile; fileRef = C29D3FF61BF0A45100CABAF9 /* yuantu.png */; settings = {ASSET_TAGS = (); }; };
+		C29D3FFC1BF0C44E00CABAF9 /* mohu.png in Resources */ = {isa = PBXBuildFile; fileRef = C29D3FFB1BF0C44E00CABAF9 /* mohu.png */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,9 +41,7 @@
 		C26CF8591BF05CD8006E1D5E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C26CF85B1BF05CD8006E1D5E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C26CF85C1BF05CD8006E1D5E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		C26CF85E1BF05CD8006E1D5E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		C26CF85F1BF05CD8006E1D5E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = ../../ViewController.m; sourceTree = "<group>"; };
-		C26CF8621BF05CD8006E1D5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C26CF8621BF05CD8006E1D5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/NIU.storyboard; sourceTree = "<group>"; };
 		C26CF8641BF05CD8006E1D5E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C26CF8671BF05CD8006E1D5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C26CF8691BF05CD8006E1D5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -56,7 +65,22 @@
 		C26CF8971BF05E79006E1D5E /* BirthdayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BirthdayViewController.m; sourceTree = "<group>"; };
 		C26CF8991BF05E82006E1D5E /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		C26CF89A1BF05E82006E1D5E /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
-		C26CF89C1BF05EA4006E1D5E /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		C26CF89C1BF05EA4006E1D5E /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PrefixHeader.pch; path = ../Header/PrefixHeader.pch; sourceTree = "<group>"; };
+		C26CF8A31BF08C90006E1D5E /* WaterFallFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaterFallFlowLayout.h; sourceTree = "<group>"; };
+		C26CF8A41BF08C90006E1D5E /* WaterFallFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaterFallFlowLayout.m; sourceTree = "<group>"; };
+		C26CF8A51BF08C90006E1D5E /* WaterFallUICollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaterFallUICollectionViewCell.h; sourceTree = "<group>"; };
+		C26CF8A61BF08C90006E1D5E /* WaterFallUICollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaterFallUICollectionViewCell.m; sourceTree = "<group>"; };
+		C26CF8AA1BF090BF006E1D5E /* jian.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = jian.jpg; sourceTree = "<group>"; };
+		C26CF8AB1BF090BF006E1D5E /* jian3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = jian3.jpg; sourceTree = "<group>"; };
+		C26CF8AC1BF090BF006E1D5E /* jiang4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = jiang4.jpg; sourceTree = "<group>"; };
+		C26CF8AD1BF090BF006E1D5E /* tu.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tu.jpg; sourceTree = "<group>"; };
+		C29D3FEF1BF0A27300CABAF9 /* WriteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WriteViewController.h; sourceTree = "<group>"; };
+		C29D3FF01BF0A27300CABAF9 /* WriteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WriteViewController.m; sourceTree = "<group>"; };
+		C29D3FF31BF0A45100CABAF9 /* t3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = t3.png; sourceTree = "<group>"; };
+		C29D3FF41BF0A45100CABAF9 /* tu3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tu3.png; sourceTree = "<group>"; };
+		C29D3FF51BF0A45100CABAF9 /* tui1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tui1.png; sourceTree = "<group>"; };
+		C29D3FF61BF0A45100CABAF9 /* yuantu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yuantu.png; sourceTree = "<group>"; };
+		C29D3FFB1BF0C44E00CABAF9 /* mohu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mohu.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,7 +116,6 @@
 				C26CF85B1BF05CD8006E1D5E /* AppDelegate.h */,
 				C26CF85C1BF05CD8006E1D5E /* AppDelegate.m */,
 				C26CF86F1BF05CE7006E1D5E /* xinqing */,
-				C26CF85E1BF05CD8006E1D5E /* ViewController.h */,
 				C26CF8641BF05CD8006E1D5E /* Assets.xcassets */,
 				C26CF8661BF05CD8006E1D5E /* LaunchScreen.storyboard */,
 				C26CF8691BF05CD8006E1D5E /* Info.plist */,
@@ -112,6 +135,8 @@
 		C26CF86F1BF05CE7006E1D5E /* xinqing */ = {
 			isa = PBXGroup;
 			children = (
+				C29D3FF21BF0A45100CABAF9 /* Modolimage */,
+				C26CF8A91BF090BF006E1D5E /* image */,
 				C26CF8761BF05CE7006E1D5E /* Macro */,
 				C26CF8771BF05CE7006E1D5E /* MainViewController */,
 				C26CF8701BF05CE7006E1D5E /* BirthdayReminder */,
@@ -168,23 +193,20 @@
 			children = (
 				C26CF8901BF05E5B006E1D5E /* WriteDiaryViewController.h */,
 				C26CF8911BF05E5B006E1D5E /* WriteDiaryViewController.m */,
+				C26CF8A31BF08C90006E1D5E /* WaterFallFlowLayout.h */,
+				C26CF8A41BF08C90006E1D5E /* WaterFallFlowLayout.m */,
+				C26CF8A51BF08C90006E1D5E /* WaterFallUICollectionViewCell.h */,
+				C26CF8A61BF08C90006E1D5E /* WaterFallUICollectionViewCell.m */,
+				C29D3FEF1BF0A27300CABAF9 /* WriteViewController.h */,
+				C29D3FF01BF0A27300CABAF9 /* WriteViewController.m */,
 			);
 			path = WriteDiary;
-			sourceTree = "<group>";
-		};
-		C26CF8751BF05CE7006E1D5E /* Header */ = {
-			isa = PBXGroup;
-			children = (
-				C26CF89C1BF05EA4006E1D5E /* PrefixHeader.pch */,
-			);
-			name = Header;
-			path = ../Header;
 			sourceTree = "<group>";
 		};
 		C26CF8761BF05CE7006E1D5E /* Macro */ = {
 			isa = PBXGroup;
 			children = (
-				C26CF8751BF05CE7006E1D5E /* Header */,
+				C26CF89C1BF05EA4006E1D5E /* PrefixHeader.pch */,
 			);
 			path = Macro;
 			sourceTree = "<group>";
@@ -194,6 +216,7 @@
 			children = (
 				C26CF8991BF05E82006E1D5E /* MainViewController.h */,
 				C26CF89A1BF05E82006E1D5E /* MainViewController.m */,
+				C29D3FFB1BF0C44E00CABAF9 /* mohu.png */,
 			);
 			path = MainViewController;
 			sourceTree = "<group>";
@@ -228,7 +251,7 @@
 		C26CF87B1BF05CE7006E1D5E /* StoryBoard */ = {
 			isa = PBXGroup;
 			children = (
-				C26CF8611BF05CD8006E1D5E /* Main.storyboard */,
+				C26CF8611BF05CD8006E1D5E /* NIU.storyboard */,
 			);
 			path = StoryBoard;
 			sourceTree = "<group>";
@@ -237,7 +260,6 @@
 			isa = PBXGroup;
 			children = (
 				C26CF8811BF05DDB006E1D5E /* ScheduleViewController.h */,
-				C26CF85F1BF05CD8006E1D5E /* ViewController.m */,
 				C26CF8821BF05DDB006E1D5E /* ScheduleViewController.m */,
 			);
 			path = "TheSchedule（日程）";
@@ -250,6 +272,28 @@
 				C26CF87F1BF05DC8006E1D5E /* WeatherViewController.m */,
 			);
 			path = Weather;
+			sourceTree = "<group>";
+		};
+		C26CF8A91BF090BF006E1D5E /* image */ = {
+			isa = PBXGroup;
+			children = (
+				C26CF8AA1BF090BF006E1D5E /* jian.jpg */,
+				C26CF8AB1BF090BF006E1D5E /* jian3.jpg */,
+				C26CF8AC1BF090BF006E1D5E /* jiang4.jpg */,
+				C26CF8AD1BF090BF006E1D5E /* tu.jpg */,
+			);
+			path = image;
+			sourceTree = "<group>";
+		};
+		C29D3FF21BF0A45100CABAF9 /* Modolimage */ = {
+			isa = PBXGroup;
+			children = (
+				C29D3FF31BF0A45100CABAF9 /* t3.png */,
+				C29D3FF41BF0A45100CABAF9 /* tu3.png */,
+				C29D3FF51BF0A45100CABAF9 /* tui1.png */,
+				C29D3FF61BF0A45100CABAF9 /* yuantu.png */,
+			);
+			path = Modolimage;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -309,9 +353,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C29D3FF71BF0A45100CABAF9 /* t3.png in Resources */,
+				C26CF8B11BF090BF006E1D5E /* tu.jpg in Resources */,
 				C26CF8681BF05CD8006E1D5E /* LaunchScreen.storyboard in Resources */,
+				C29D3FF81BF0A45100CABAF9 /* tu3.png in Resources */,
+				C26CF8AF1BF090BF006E1D5E /* jian3.jpg in Resources */,
+				C29D3FFA1BF0A45100CABAF9 /* yuantu.png in Resources */,
+				C26CF8B01BF090BF006E1D5E /* jiang4.jpg in Resources */,
+				C29D3FF91BF0A45100CABAF9 /* tui1.png in Resources */,
+				C29D3FFC1BF0C44E00CABAF9 /* mohu.png in Resources */,
+				C26CF8AE1BF090BF006E1D5E /* jian.jpg in Resources */,
 				C26CF8651BF05CD8006E1D5E /* Assets.xcassets in Resources */,
-				C26CF8631BF05CD8006E1D5E /* Main.storyboard in Resources */,
+				C26CF8631BF05CD8006E1D5E /* NIU.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -323,9 +376,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				C26CF8921BF05E5B006E1D5E /* WriteDiaryViewController.m in Sources */,
-				C26CF8601BF05CD8006E1D5E /* ViewController.m in Sources */,
+				C26CF8A81BF08C90006E1D5E /* WaterFallUICollectionViewCell.m in Sources */,
 				C26CF8801BF05DC8006E1D5E /* WeatherViewController.m in Sources */,
 				C26CF8861BF05DFB006E1D5E /* StarViewController.m in Sources */,
+				C29D3FF11BF0A27300CABAF9 /* WriteViewController.m in Sources */,
 				C26CF89B1BF05E82006E1D5E /* MainViewController.m in Sources */,
 				C26CF8831BF05DDB006E1D5E /* ScheduleViewController.m in Sources */,
 				C26CF8981BF05E79006E1D5E /* BirthdayViewController.m in Sources */,
@@ -334,6 +388,7 @@
 				C26CF8891BF05E1A006E1D5E /* DailyViewController.m in Sources */,
 				C26CF88C1BF05E24006E1D5E /* QRViewController.m in Sources */,
 				C26CF88F1BF05E44006E1D5E /* LookDiaryViewController.m in Sources */,
+				C26CF8A71BF08C90006E1D5E /* WaterFallFlowLayout.m in Sources */,
 				C26CF8951BF05E6A006E1D5E /* CalendarViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -341,12 +396,12 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		C26CF8611BF05CD8006E1D5E /* Main.storyboard */ = {
+		C26CF8611BF05CD8006E1D5E /* NIU.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				C26CF8621BF05CD8006E1D5E /* Base */,
 			);
-			name = Main.storyboard;
+			name = NIU.storyboard;
 			path = ../..;
 			sourceTree = "<group>";
 		};
@@ -447,6 +502,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "/Users/lanou3g/Desktop/生活助手/team/team/xinqing/Header/PrefixHeader.pch";
 				INFOPLIST_FILE = team/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = niuhailei.team;
@@ -458,6 +514,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "/Users/lanou3g/Desktop/生活助手/team/team/xinqing/Header/PrefixHeader.pch";
 				INFOPLIST_FILE = team/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = niuhailei.team;
