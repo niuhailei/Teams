@@ -25,5 +25,12 @@
 #import "Helper.h"
 
 
+//编辑心晴日记
+#import "WriteDiaryViewController.h"
+#import "WaterFallFlowLayout.h"
+#import "WaterFallUICollectionViewCell.h"
+#import "WriteViewController.h"
+
+
 
 #endif /* PrefixHeader_pch */
