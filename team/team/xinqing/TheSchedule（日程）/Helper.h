@@ -11,4 +11,13 @@
 @interface Helper : NSObject
 @property (nonatomic,strong)NSMutableArray *mScheduleArr;
 +(instancetype)sharedManager;
+
+//移动数据
+- (void)moveDataFromIndexPath:(NSIndexPath *)fromIndexPath
+                  toIndexPath:(NSIndexPath *)toIndexPath;
+    
+    
+
+
+
 @end

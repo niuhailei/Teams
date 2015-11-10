@@ -18,8 +18,11 @@
 #pragma mark -- 添加控件 --
 - (void)addAllViews{
     
-    self.upView = [[UIView alloc]initWithFrame:CGRectMake(kX, kWidth*0.01, kWidth, kHeight*0.16)];
+    self.upView = [[UIImageView alloc]initWithFrame:CGRectMake(kX, kWidth*0.01, kWidth, kHeight*0.16)];
+    //self.upView.image = [UIImage imageNamed:@"hui"];
+    
     self.upView.backgroundColor = [UIColor redColor];
+    
     [self.contentView addSubview:self.upView];
     
     self.dateLabel = [[UILabel alloc]initWithFrame:CGRectMake(self.upView.frame.origin.x+kWidth*0.01, self.upView.frame.origin.y+self.upView.frame.size.height*0.1, self.upView.frame.size.width-2*kWidth*0.01, self.upView.frame.size.height*0.3)];

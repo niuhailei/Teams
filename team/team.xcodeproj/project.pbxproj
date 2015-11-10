@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		187B5C251BF1D5AB0003420E /* love.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 187B5C241BF1D5AB0003420E /* love.jpg */; settings = {ASSET_TAGS = (); }; };
+		187B5C2A1BF1D88C0003420E /* ListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 187B5C291BF1D88C0003420E /* ListTableViewController.m */; settings = {ASSET_TAGS = (); }; };
+		187B5C2C1BF1DFED0003420E /* hui.png in Resources */ = {isa = PBXBuildFile; fileRef = 187B5C2B1BF1DFED0003420E /* hui.png */; settings = {ASSET_TAGS = (); }; };
+		187B5C2E1BF1E02B0003420E /* jie.png in Resources */ = {isa = PBXBuildFile; fileRef = 187B5C2D1BF1E02B0003420E /* jie.png */; settings = {ASSET_TAGS = (); }; };
+		187B5C301BF1E0550003420E /* hei.png in Resources */ = {isa = PBXBuildFile; fileRef = 187B5C2F1BF1E0550003420E /* hei.png */; settings = {ASSET_TAGS = (); }; };
+		187B5C321BF1E2B60003420E /* hong副本.png in Resources */ = {isa = PBXBuildFile; fileRef = 187B5C311BF1E2B60003420E /* hong副本.png */; settings = {ASSET_TAGS = (); }; };
+		187B5C351BF1EB2D0003420E /* UIView+CHDAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 187B5C331BF1EB2D0003420E /* UIView+CHDAnimation.m */; settings = {ASSET_TAGS = (); }; };
 		18B998821BF07574006B3FBB /* ScheduleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B998811BF07574006B3FBB /* ScheduleView.m */; settings = {ASSET_TAGS = (); }; };
 		18B9988A1BF08225006B3FBB /* ScheduleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B998891BF08225006B3FBB /* ScheduleCell.m */; settings = {ASSET_TAGS = (); }; };
 		18B9989B1BF08C9E006B3FBB /* SelectDateController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B9989A1BF08C9E006B3FBB /* SelectDateController.m */; settings = {ASSET_TAGS = (); }; };
@@ -38,6 +45,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		187B5C241BF1D5AB0003420E /* love.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = love.jpg; sourceTree = "<group>"; };
+		187B5C281BF1D88C0003420E /* ListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListTableViewController.h; sourceTree = "<group>"; };
+		187B5C291BF1D88C0003420E /* ListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListTableViewController.m; sourceTree = "<group>"; };
+		187B5C2B1BF1DFED0003420E /* hui.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hui.png; sourceTree = "<group>"; };
+		187B5C2D1BF1E02B0003420E /* jie.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jie.png; sourceTree = "<group>"; };
+		187B5C2F1BF1E0550003420E /* hei.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hei.png; sourceTree = "<group>"; };
+		187B5C311BF1E2B60003420E /* hong副本.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hong副本.png"; sourceTree = "<group>"; };
+		187B5C331BF1EB2D0003420E /* UIView+CHDAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CHDAnimation.m"; sourceTree = "<group>"; };
+		187B5C341BF1EB2D0003420E /* UIView+CHDAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CHDAnimation.h"; sourceTree = "<group>"; };
 		18B998801BF07574006B3FBB /* ScheduleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScheduleView.h; sourceTree = "<group>"; };
 		18B998811BF07574006B3FBB /* ScheduleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScheduleView.m; sourceTree = "<group>"; };
 		18B998841BF0769E006B3FBB /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
@@ -266,6 +282,15 @@
 		C26CF87C1BF05CE7006E1D5E /* TheSchedule（日程） */ = {
 			isa = PBXGroup;
 			children = (
+				187B5C341BF1EB2D0003420E /* UIView+CHDAnimation.h */,
+				187B5C331BF1EB2D0003420E /* UIView+CHDAnimation.m */,
+				187B5C2F1BF1E0550003420E /* hei.png */,
+				187B5C2D1BF1E02B0003420E /* jie.png */,
+				187B5C241BF1D5AB0003420E /* love.jpg */,
+				187B5C2B1BF1DFED0003420E /* hui.png */,
+				187B5C311BF1E2B60003420E /* hong副本.png */,
+				187B5C281BF1D88C0003420E /* ListTableViewController.h */,
+				187B5C291BF1D88C0003420E /* ListTableViewController.m */,
 				C26CF8811BF05DDB006E1D5E /* ScheduleViewController.h */,
 				C26CF8821BF05DDB006E1D5E /* ScheduleViewController.m */,
 				18B998801BF07574006B3FBB /* ScheduleView.h */,
@@ -369,7 +394,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				187B5C301BF1E0550003420E /* hei.png in Resources */,
+				187B5C2C1BF1DFED0003420E /* hui.png in Resources */,
+				187B5C2E1BF1E02B0003420E /* jie.png in Resources */,
 				C26CF8681BF05CD8006E1D5E /* LaunchScreen.storyboard in Resources */,
+				187B5C321BF1E2B60003420E /* hong副本.png in Resources */,
+				187B5C251BF1D5AB0003420E /* love.jpg in Resources */,
 				C29D3FFE1BF0E40B00CABAF9 /* NIU.storyboard in Resources */,
 				C26CF8651BF05CD8006E1D5E /* Assets.xcassets in Resources */,
 				C26CF8631BF05CD8006E1D5E /* Main.storyboard in Resources */,
@@ -392,6 +422,7 @@
 				C26CF89B1BF05E82006E1D5E /* MainViewController.m in Sources */,
 				C2CC993D1BF0E87300246596 /* WaterFallFlowLayout.m in Sources */,
 				18B9988A1BF08225006B3FBB /* ScheduleCell.m in Sources */,
+				187B5C2A1BF1D88C0003420E /* ListTableViewController.m in Sources */,
 				18B998AA1BF093C5006B3FBB /* ScheduleInfoView.m in Sources */,
 				C26CF8831BF05DDB006E1D5E /* ScheduleViewController.m in Sources */,
 				C26CF8981BF05E79006E1D5E /* BirthdayViewController.m in Sources */,
@@ -405,6 +436,7 @@
 				C26CF88C1BF05E24006E1D5E /* QRViewController.m in Sources */,
 				C26CF88F1BF05E44006E1D5E /* LookDiaryViewController.m in Sources */,
 				18B998A41BF09357006B3FBB /* ScheduleInfoController.m in Sources */,
+				187B5C351BF1EB2D0003420E /* UIView+CHDAnimation.m in Sources */,
 				C26CF8951BF05E6A006E1D5E /* CalendarViewController.m in Sources */,
 				C2CC99401BF0E87300246596 /* WriteViewController.m in Sources */,
 			);

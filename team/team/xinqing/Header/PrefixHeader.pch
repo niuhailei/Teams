@@ -8,6 +8,11 @@
 
 #ifndef PrefixHeader_pch
 #define PrefixHeader_pch
+//第三方
+#import "UIView+CHDAnimation.h"
+//分类
+#import "ListTableViewController.h"
+
 
 //日程表格
 #import "ScheduleView.h"

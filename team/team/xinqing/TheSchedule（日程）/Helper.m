@@ -19,6 +19,20 @@
     return manager;
 }
 
+//移动数据
+- (void)moveDataFromIndexPath:(NSIndexPath *)fromIndexPath
+                  toIndexPath:(NSIndexPath *)toIndexPath{
+    
+    
+    Schedule *sch = self.mScheduleArr[fromIndexPath.row];
+    
+    [self.mScheduleArr removeObject:sch];
+    
+    [self.mScheduleArr insertObject:sch atIndex:toIndexPath.row];
+    
+    
+}
+
 
 
 #pragma mark -- 懒加载 --

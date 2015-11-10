@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface ScheduleCell : UITableViewCell
-@property (nonatomic,strong)UIView *upView;
+@property (nonatomic,strong)UIImageView *upView;
 @property (nonatomic,strong)UILabel *dateLabel;
 @property (nonatomic,strong)UILabel *introLabel;
 @end
