@@ -23,7 +23,6 @@
 		C26CF8681BF05CD8006E1D5E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C26CF8661BF05CD8006E1D5E /* LaunchScreen.storyboard */; };
 		C26CF8801BF05DC8006E1D5E /* WeatherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C26CF87F1BF05DC8006E1D5E /* WeatherViewController.m */; settings = {ASSET_TAGS = (); }; };
 		C26CF8831BF05DDB006E1D5E /* ScheduleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C26CF8821BF05DDB006E1D5E /* ScheduleViewController.m */; settings = {ASSET_TAGS = (); }; };
-		C26CF8861BF05DFB006E1D5E /* StarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C26CF8851BF05DFB006E1D5E /* StarViewController.m */; settings = {ASSET_TAGS = (); }; };
 		C26CF8891BF05E1A006E1D5E /* DailyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C26CF8881BF05E1A006E1D5E /* DailyViewController.m */; settings = {ASSET_TAGS = (); }; };
 		C26CF88C1BF05E24006E1D5E /* QRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C26CF88B1BF05E24006E1D5E /* QRViewController.m */; settings = {ASSET_TAGS = (); }; };
 		C26CF88F1BF05E44006E1D5E /* LookDiaryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C26CF88E1BF05E44006E1D5E /* LookDiaryViewController.m */; settings = {ASSET_TAGS = (); }; };
@@ -39,6 +38,9 @@
 		C2772BD21BF1DA74004EE0E6 /* tu3.png in Resources */ = {isa = PBXBuildFile; fileRef = C2772BCE1BF1DA74004EE0E6 /* tu3.png */; settings = {ASSET_TAGS = (); }; };
 		C2772BD31BF1DA74004EE0E6 /* tui1.png in Resources */ = {isa = PBXBuildFile; fileRef = C2772BCF1BF1DA74004EE0E6 /* tui1.png */; settings = {ASSET_TAGS = (); }; };
 		C2772BD41BF1DA74004EE0E6 /* yuantu.png in Resources */ = {isa = PBXBuildFile; fileRef = C2772BD01BF1DA74004EE0E6 /* yuantu.png */; settings = {ASSET_TAGS = (); }; };
+		C2772BD81BF1E373004EE0E6 /* InfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2772BD61BF1E373004EE0E6 /* InfoViewController.m */; settings = {ASSET_TAGS = (); }; };
+		C2772BD91BF1E373004EE0E6 /* InfoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C2772BD71BF1E373004EE0E6 /* InfoViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		C2772BDC1BF1F21E004EE0E6 /* MainNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2772BDB1BF1F21E004EE0E6 /* MainNavigationViewController.m */; settings = {ASSET_TAGS = (); }; };
 		C29D3FFE1BF0E40B00CABAF9 /* NIU.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C29D3FFD1BF0E40B00CABAF9 /* NIU.storyboard */; settings = {ASSET_TAGS = (); }; };
 		C2CC993D1BF0E87300246596 /* WaterFallFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = C2CC99361BF0E87300246596 /* WaterFallFlowLayout.m */; settings = {ASSET_TAGS = (); }; };
 		C2CC993E1BF0E87300246596 /* WaterFallUICollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C2CC99381BF0E87300246596 /* WaterFallUICollectionViewCell.m */; settings = {ASSET_TAGS = (); }; };
@@ -79,8 +81,6 @@
 		C26CF87F1BF05DC8006E1D5E /* WeatherViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeatherViewController.m; sourceTree = "<group>"; };
 		C26CF8811BF05DDB006E1D5E /* ScheduleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScheduleViewController.h; sourceTree = "<group>"; };
 		C26CF8821BF05DDB006E1D5E /* ScheduleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScheduleViewController.m; sourceTree = "<group>"; };
-		C26CF8841BF05DFB006E1D5E /* StarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StarViewController.h; sourceTree = "<group>"; };
-		C26CF8851BF05DFB006E1D5E /* StarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StarViewController.m; sourceTree = "<group>"; };
 		C26CF8871BF05E1A006E1D5E /* DailyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DailyViewController.h; sourceTree = "<group>"; };
 		C26CF8881BF05E1A006E1D5E /* DailyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DailyViewController.m; sourceTree = "<group>"; };
 		C26CF88A1BF05E24006E1D5E /* QRViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QRViewController.h; sourceTree = "<group>"; };
@@ -102,6 +102,11 @@
 		C2772BCE1BF1DA74004EE0E6 /* tu3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tu3.png; sourceTree = "<group>"; };
 		C2772BCF1BF1DA74004EE0E6 /* tui1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tui1.png; sourceTree = "<group>"; };
 		C2772BD01BF1DA74004EE0E6 /* yuantu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yuantu.png; sourceTree = "<group>"; };
+		C2772BD51BF1E373004EE0E6 /* InfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoViewController.h; sourceTree = "<group>"; };
+		C2772BD61BF1E373004EE0E6 /* InfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfoViewController.m; sourceTree = "<group>"; };
+		C2772BD71BF1E373004EE0E6 /* InfoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InfoViewController.xib; sourceTree = "<group>"; };
+		C2772BDA1BF1F21D004EE0E6 /* MainNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainNavigationViewController.h; sourceTree = "<group>"; };
+		C2772BDB1BF1F21E004EE0E6 /* MainNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainNavigationViewController.m; sourceTree = "<group>"; };
 		C29D3FFD1BF0E40B00CABAF9 /* NIU.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = NIU.storyboard; sourceTree = "<group>"; };
 		C2CC99351BF0E87300246596 /* WaterFallFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaterFallFlowLayout.h; sourceTree = "<group>"; };
 		C2CC99361BF0E87300246596 /* WaterFallFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaterFallFlowLayout.m; sourceTree = "<group>"; };
@@ -243,6 +248,8 @@
 			children = (
 				C26CF8991BF05E82006E1D5E /* MainViewController.h */,
 				C26CF89A1BF05E82006E1D5E /* MainViewController.m */,
+				C2772BDA1BF1F21D004EE0E6 /* MainNavigationViewController.h */,
+				C2772BDB1BF1F21E004EE0E6 /* MainNavigationViewController.m */,
 			);
 			path = MainViewController;
 			sourceTree = "<group>";
@@ -268,8 +275,9 @@
 		C26CF87A1BF05CE7006E1D5E /* StarTheInterface */ = {
 			isa = PBXGroup;
 			children = (
-				C26CF8841BF05DFB006E1D5E /* StarViewController.h */,
-				C26CF8851BF05DFB006E1D5E /* StarViewController.m */,
+				C2772BD51BF1E373004EE0E6 /* InfoViewController.h */,
+				C2772BD61BF1E373004EE0E6 /* InfoViewController.m */,
+				C2772BD71BF1E373004EE0E6 /* InfoViewController.xib */,
 			);
 			path = StarTheInterface;
 			sourceTree = "<group>";
@@ -424,6 +432,7 @@
 				C2772BCB1BF1DA6C004EE0E6 /* tu.jpg in Resources */,
 				C26CF8651BF05CD8006E1D5E /* Assets.xcassets in Resources */,
 				C2772BCA1BF1DA6C004EE0E6 /* jiang4.jpg in Resources */,
+				C2772BD91BF1E373004EE0E6 /* InfoViewController.xib in Resources */,
 				C26CF8631BF05CD8006E1D5E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -437,10 +446,10 @@
 			files = (
 				C26CF8601BF05CD8006E1D5E /* ViewController.m in Sources */,
 				C26CF8801BF05DC8006E1D5E /* WeatherViewController.m in Sources */,
+				C2772BD81BF1E373004EE0E6 /* InfoViewController.m in Sources */,
 				18B9989B1BF08C9E006B3FBB /* SelectDateController.m in Sources */,
 				18B998B01BF0D277006B3FBB /* Helper.m in Sources */,
 				C2CC993F1BF0E87300246596 /* WriteDiaryViewController.m in Sources */,
-				C26CF8861BF05DFB006E1D5E /* StarViewController.m in Sources */,
 				C26CF89B1BF05E82006E1D5E /* MainViewController.m in Sources */,
 				C2CC993D1BF0E87300246596 /* WaterFallFlowLayout.m in Sources */,
 				18B9988A1BF08225006B3FBB /* ScheduleCell.m in Sources */,
@@ -453,6 +462,7 @@
 				C26CF85D1BF05CD8006E1D5E /* AppDelegate.m in Sources */,
 				C26CF85A1BF05CD8006E1D5E /* main.m in Sources */,
 				18B998A11BF08D68006B3FBB /* SelectDateView.m in Sources */,
+				C2772BDC1BF1F21E004EE0E6 /* MainNavigationViewController.m in Sources */,
 				C26CF8891BF05E1A006E1D5E /* DailyViewController.m in Sources */,
 				C26CF88C1BF05E24006E1D5E /* QRViewController.m in Sources */,
 				C26CF88F1BF05E44006E1D5E /* LookDiaryViewController.m in Sources */,
