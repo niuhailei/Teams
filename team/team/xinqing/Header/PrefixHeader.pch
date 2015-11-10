@@ -31,30 +31,10 @@
 #import "WaterFallUICollectionViewCell.h"
 #import "WriteViewController.h"
 
-
-//日记
-//#import "Contact.h"
-//#import "dataDictionary.h"
-//天气
-
-#import "Weather.h"
-
-#pragma mark 天气cell
-#import "FirstCell.h"
-#import "SecondCell.h"
-#import "FourCell.h"
-
-
-
-
-
-
-
-
-
-
-
-
-
+//第一次启动界面
+#import "InfoViewController.h"
+#import "AppDelegate.h"
+#import "MainViewController.h"
+#import "MainNavigationViewController.h"
 
 #endif /* PrefixHeader_pch */

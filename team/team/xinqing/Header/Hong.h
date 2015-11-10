@@ -17,9 +17,6 @@
 #define kHeight [UIScreen mainScreen].bounds.size.height
 #define kFont [UIFont fontWithName:@"Helvetica" size:15.f]
 
-#define Bounds [UIScreen mainScreen].bounds
-#define Width [UIScreen mainScreen].bounds.size.width
-#define Height [UIScreen mainScreen].bounds.size.height
 
 
 

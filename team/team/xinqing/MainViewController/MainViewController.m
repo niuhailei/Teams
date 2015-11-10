@@ -166,13 +166,6 @@
     
     [self.scrollView setContentOffset:offSet animated:YES];
     
-     //offSet.x = self.view.frame.size.width;
-//    if (offSet.x >= self.view.frame.size.width *4) {
-//        
-//        offSet.x = self.view.frame.size.width;
-//        
-//    }
-    
     
 }
 
