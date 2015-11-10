@@ -38,7 +38,7 @@
         
         
         self.window.rootViewController = mainNavigationController;
-        
+        NSLog(@"sfsfsf");
         
         
         
