@@ -1,5 +1,5 @@
 //
-//  StarViewController.h
+//  MainViewController.h
 //  team
 //
 //  Created by lanou3g on 15/11/9.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface StarViewController : UIViewController
+@interface MainViewController : UIViewController
 
 @end

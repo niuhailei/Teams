@@ -1,0 +1,52 @@
+//
+//  PrefixHeader.pch
+//  team
+//
+//  Created by lanou3g on 15/11/9.
+//  Copyright © 2015年 钮海雷. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+//第三方
+
+//分类
+#import "ListTableViewController.h"
+
+
+//日程表格
+#import "ScheduleView.h"
+#import "ScheduleViewController.h"
+#import "ScheduleCell.h"
+#import "Hong.h"
+//添加日程时间选择
+#import "SelectDateView.h"
+#import "SelectDateController.h"
+//添加具体日程
+#import "ScheduleInfoView.h"
+#import "ScheduleInfoController.h"
+
+#import "Schedule.h"
+#import "Helper.h"
+
+
+//编辑心晴日记
+#import "WriteDiaryViewController.h"
+#import "WaterFallFlowLayout.h"
+#import "WaterFallUICollectionViewCell.h"
+#import "WriteViewController.h"
+
+//第一次启动界面
+#import "InfoViewController.h"
+#import "AppDelegate.h"
+#import "MainViewController.h"
+#import "MainNavigationViewController.h"
+#import "Weather.h"
+
+#pragma mark 天气cell
+#import "FirstCell.h"
+#import "SecondCell.h"
+#import "FourCell.h"
+
+
+#endif /* PrefixHeader_pch */
