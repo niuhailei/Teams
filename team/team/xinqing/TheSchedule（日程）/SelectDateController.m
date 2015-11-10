@@ -39,13 +39,18 @@
     
     UIDatePicker *datePicker = self.selectDateView.datePicker;
     NSDate *date = datePicker.date;
-    NSDateFormatter *format = [[NSDateFormatter alloc] init];
-    [format setDateFormat:@"yyyy-MM-dd eee"];
+    NSDateFormatter *format1 = [[NSDateFormatter alloc] init];
+    [format1 setDateFormat:@"yyyy-MM-dd eee"];
+    
+    NSDateFormatter *format2 = [[NSDateFormatter alloc]init];
+    [format2 setDateFormat:@"hh:mm"];
     
     
     
     ScheduleInfoController *scheduleInfoController = [ScheduleInfoController new];
-    scheduleInfoController.dateStr = [format stringFromDate:date];
+    scheduleInfoController.dateStr = [format1 stringFromDate:date];
+    scheduleInfoController.timeStr = [format2 stringFromDate:date];
+    
     [self.navigationController pushViewController:scheduleInfoController animated:YES];
     
     

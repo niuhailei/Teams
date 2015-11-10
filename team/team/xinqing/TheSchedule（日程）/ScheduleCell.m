@@ -19,19 +19,22 @@
 - (void)addAllViews{
     
     self.upView = [[UIImageView alloc]initWithFrame:CGRectMake(kX, kWidth*0.01, kWidth, kHeight*0.16)];
-    //self.upView.image = [UIImage imageNamed:@"hui"];
-    
-    self.upView.backgroundColor = [UIColor redColor];
-    
+    //self.upView.backgroundColor = [UIColor redColor];
+    self.upView.image = [UIImage imageNamed:@"hui"];
     [self.contentView addSubview:self.upView];
     
     self.dateLabel = [[UILabel alloc]initWithFrame:CGRectMake(self.upView.frame.origin.x+kWidth*0.01, self.upView.frame.origin.y+self.upView.frame.size.height*0.1, self.upView.frame.size.width-2*kWidth*0.01, self.upView.frame.size.height*0.3)];
-    self.dateLabel.backgroundColor = [UIColor greenColor];
+    //self.dateLabel.backgroundColor = [UIColor greenColor];
     [self.upView addSubview:self.dateLabel];
     
-    self.introLabel = [[UILabel alloc]initWithFrame:CGRectMake(self.dateLabel.frame.origin.x, self.upView.frame.origin.y+self.upView.frame.size.height*0.5, self.dateLabel.frame.size.width, self.dateLabel.frame.size.height)];
-    self.introLabel.backgroundColor = [UIColor purpleColor];
+    self.timeLabel = [[UILabel alloc]initWithFrame:CGRectMake(self.upView.frame.origin.x+kWidth*0.01, self.upView.frame.origin.y+self.upView.frame.size.height*0.55, self.upView.frame.size.width-2*kWidth*0.01, self.upView.frame.size.height*0.3)];
+    //self.timeLabel.backgroundColor = [UIColor redColor];
+    [self.upView addSubview:self.timeLabel];
+    
+    self.introLabel = [[UILabel alloc]initWithFrame:CGRectMake(self.dateLabel.frame.origin.x+kWidth*0.5, self.upView.frame.origin.y+self.upView.frame.size.height*0.3, self.dateLabel.frame.size.width, self.dateLabel.frame.size.height)];
+    // self.introLabel.backgroundColor = [UIColor purpleColor];
     [self.upView addSubview:self.introLabel];
+
     
     
     

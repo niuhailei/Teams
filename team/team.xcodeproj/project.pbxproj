@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		182833C81BF229870034DB33 /* ListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 182833C71BF229870034DB33 /* ListTableViewController.m */; settings = {ASSET_TAGS = (); }; };
+		182833CD1BF2299C0034DB33 /* hong1.png in Resources */ = {isa = PBXBuildFile; fileRef = 182833CA1BF2299C0034DB33 /* hong1.png */; settings = {ASSET_TAGS = (); }; };
+		182833CE1BF2299C0034DB33 /* hui.png in Resources */ = {isa = PBXBuildFile; fileRef = 182833CB1BF2299C0034DB33 /* hui.png */; settings = {ASSET_TAGS = (); }; };
+		182833CF1BF2299C0034DB33 /* lan.png in Resources */ = {isa = PBXBuildFile; fileRef = 182833CC1BF2299C0034DB33 /* lan.png */; settings = {ASSET_TAGS = (); }; };
+		182833D31BF22CCC0034DB33 /* InfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 182833D11BF22CCC0034DB33 /* InfoViewController.m */; settings = {ASSET_TAGS = (); }; };
+		182833D41BF22CCC0034DB33 /* InfoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 182833D21BF22CCC0034DB33 /* InfoViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		182833D71BF22CE50034DB33 /* MainNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 182833D61BF22CE50034DB33 /* MainNavigationViewController.m */; settings = {ASSET_TAGS = (); }; };
 		18B998821BF07574006B3FBB /* ScheduleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B998811BF07574006B3FBB /* ScheduleView.m */; };
 		18B9988A1BF08225006B3FBB /* ScheduleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B998891BF08225006B3FBB /* ScheduleCell.m */; };
 		18B9989B1BF08C9E006B3FBB /* SelectDateController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B9989A1BF08C9E006B3FBB /* SelectDateController.m */; };
@@ -38,7 +45,6 @@
 		C26CF8681BF05CD8006E1D5E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C26CF8661BF05CD8006E1D5E /* LaunchScreen.storyboard */; };
 		C26CF8801BF05DC8006E1D5E /* WeatherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C26CF87F1BF05DC8006E1D5E /* WeatherViewController.m */; };
 		C26CF8831BF05DDB006E1D5E /* ScheduleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C26CF8821BF05DDB006E1D5E /* ScheduleViewController.m */; };
-		C26CF8861BF05DFB006E1D5E /* StarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C26CF8851BF05DFB006E1D5E /* StarViewController.m */; };
 		C26CF8891BF05E1A006E1D5E /* DailyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C26CF8881BF05E1A006E1D5E /* DailyViewController.m */; };
 		C26CF88C1BF05E24006E1D5E /* QRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C26CF88B1BF05E24006E1D5E /* QRViewController.m */; };
 		C26CF88F1BF05E44006E1D5E /* LookDiaryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C26CF88E1BF05E44006E1D5E /* LookDiaryViewController.m */; };
@@ -62,6 +68,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		182833C61BF229870034DB33 /* ListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListTableViewController.h; sourceTree = "<group>"; };
+		182833C71BF229870034DB33 /* ListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListTableViewController.m; sourceTree = "<group>"; };
+		182833CA1BF2299C0034DB33 /* hong1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hong1.png; sourceTree = "<group>"; };
+		182833CB1BF2299C0034DB33 /* hui.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hui.png; sourceTree = "<group>"; };
+		182833CC1BF2299C0034DB33 /* lan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lan.png; sourceTree = "<group>"; };
+		182833D01BF22CCC0034DB33 /* InfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoViewController.h; sourceTree = "<group>"; };
+		182833D11BF22CCC0034DB33 /* InfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfoViewController.m; sourceTree = "<group>"; };
+		182833D21BF22CCC0034DB33 /* InfoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InfoViewController.xib; sourceTree = "<group>"; };
+		182833D51BF22CE50034DB33 /* MainNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainNavigationViewController.h; sourceTree = "<group>"; };
+		182833D61BF22CE50034DB33 /* MainNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainNavigationViewController.m; sourceTree = "<group>"; };
 		18B998801BF07574006B3FBB /* ScheduleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScheduleView.h; sourceTree = "<group>"; };
 		18B998811BF07574006B3FBB /* ScheduleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScheduleView.m; sourceTree = "<group>"; };
 		18B998841BF0769E006B3FBB /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
@@ -116,8 +132,6 @@
 		C26CF87F1BF05DC8006E1D5E /* WeatherViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeatherViewController.m; sourceTree = "<group>"; };
 		C26CF8811BF05DDB006E1D5E /* ScheduleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScheduleViewController.h; sourceTree = "<group>"; };
 		C26CF8821BF05DDB006E1D5E /* ScheduleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScheduleViewController.m; sourceTree = "<group>"; };
-		C26CF8841BF05DFB006E1D5E /* StarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StarViewController.h; sourceTree = "<group>"; };
-		C26CF8851BF05DFB006E1D5E /* StarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StarViewController.m; sourceTree = "<group>"; };
 		C26CF8871BF05E1A006E1D5E /* DailyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DailyViewController.h; sourceTree = "<group>"; };
 		C26CF8881BF05E1A006E1D5E /* DailyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DailyViewController.m; sourceTree = "<group>"; };
 		C26CF88A1BF05E24006E1D5E /* QRViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QRViewController.h; sourceTree = "<group>"; };
@@ -162,6 +176,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		182833C91BF2299C0034DB33 /* 标签_项目 */ = {
+			isa = PBXGroup;
+			children = (
+				182833CA1BF2299C0034DB33 /* hong1.png */,
+				182833CB1BF2299C0034DB33 /* hui.png */,
+				182833CC1BF2299C0034DB33 /* lan.png */,
+			);
+			path = "标签_项目";
+			sourceTree = "<group>";
+		};
 		18B998831BF0769E006B3FBB /* Header */ = {
 			isa = PBXGroup;
 			children = (
@@ -315,6 +339,8 @@
 		C26CF8771BF05CE7006E1D5E /* MainViewController */ = {
 			isa = PBXGroup;
 			children = (
+				182833D51BF22CE50034DB33 /* MainNavigationViewController.h */,
+				182833D61BF22CE50034DB33 /* MainNavigationViewController.m */,
 				C26CF8991BF05E82006E1D5E /* MainViewController.h */,
 				C26CF89A1BF05E82006E1D5E /* MainViewController.m */,
 			);
@@ -342,8 +368,9 @@
 		C26CF87A1BF05CE7006E1D5E /* StarTheInterface */ = {
 			isa = PBXGroup;
 			children = (
-				C26CF8841BF05DFB006E1D5E /* StarViewController.h */,
-				C26CF8851BF05DFB006E1D5E /* StarViewController.m */,
+				182833D01BF22CCC0034DB33 /* InfoViewController.h */,
+				182833D11BF22CCC0034DB33 /* InfoViewController.m */,
+				182833D21BF22CCC0034DB33 /* InfoViewController.xib */,
 			);
 			path = StarTheInterface;
 			sourceTree = "<group>";
@@ -361,6 +388,9 @@
 		C26CF87C1BF05CE7006E1D5E /* TheSchedule（日程） */ = {
 			isa = PBXGroup;
 			children = (
+				182833C91BF2299C0034DB33 /* 标签_项目 */,
+				182833C61BF229870034DB33 /* ListTableViewController.h */,
+				182833C71BF229870034DB33 /* ListTableViewController.m */,
 				C26CF8811BF05DDB006E1D5E /* ScheduleViewController.h */,
 				C26CF8821BF05DDB006E1D5E /* ScheduleViewController.m */,
 				18B998801BF07574006B3FBB /* ScheduleView.h */,
@@ -499,6 +529,7 @@
 			files = (
 				C2772BD11BF1DA74004EE0E6 /* t3.png in Resources */,
 				C26CF8681BF05CD8006E1D5E /* LaunchScreen.storyboard in Resources */,
+				182833CE1BF2299C0034DB33 /* hui.png in Resources */,
 				C2772BD41BF1DA74004EE0E6 /* yuantu.png in Resources */,
 				C2772BD31BF1DA74004EE0E6 /* tui1.png in Resources */,
 				C2772BC81BF1DA6C004EE0E6 /* jian.jpg in Resources */,
@@ -506,6 +537,7 @@
 				C26C98241BF1ECA700E70CE4 /* YC.Storyboard in Resources */,
 				C2772BC91BF1DA6C004EE0E6 /* jian3.jpg in Resources */,
 				C2772BC21BF17E1D004EE0E6 /* mohu.png in Resources */,
+				182833D41BF22CCC0034DB33 /* InfoViewController.xib in Resources */,
 				C26C98101BF1EC5D00E70CE4 /* FirstCell.xib in Resources */,
 				C26C98141BF1EC5D00E70CE4 /* FourCell.xib in Resources */,
 				C26C981E1BF1EC7600E70CE4 /* weather.jpg in Resources */,
@@ -516,6 +548,8 @@
 				C26C98191BF1EC6E00E70CE4 /* Weather_Json.txt in Resources */,
 				C26CF8651BF05CD8006E1D5E /* Assets.xcassets in Resources */,
 				C2772BCA1BF1DA6C004EE0E6 /* jiang4.jpg in Resources */,
+				182833CD1BF2299C0034DB33 /* hong1.png in Resources */,
+				182833CF1BF2299C0034DB33 /* lan.png in Resources */,
 				C26CF8631BF05CD8006E1D5E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -534,11 +568,11 @@
 				C26C98131BF1EC5D00E70CE4 /* FourCell.m in Sources */,
 				18B998B01BF0D277006B3FBB /* Helper.m in Sources */,
 				C2CC993F1BF0E87300246596 /* WriteDiaryViewController.m in Sources */,
-				C26CF8861BF05DFB006E1D5E /* StarViewController.m in Sources */,
 				C26CF89B1BF05E82006E1D5E /* MainViewController.m in Sources */,
 				C26C981D1BF1EC7600E70CE4 /* tableViewTableViewController.m in Sources */,
 				C26C980F1BF1EC5D00E70CE4 /* FirstCell.m in Sources */,
 				C2CC993D1BF0E87300246596 /* WaterFallFlowLayout.m in Sources */,
+				182833D71BF22CE50034DB33 /* MainNavigationViewController.m in Sources */,
 				18B9988A1BF08225006B3FBB /* ScheduleCell.m in Sources */,
 				18B998AA1BF093C5006B3FBB /* ScheduleInfoView.m in Sources */,
 				C26CF8831BF05DDB006E1D5E /* ScheduleViewController.m in Sources */,
@@ -550,9 +584,11 @@
 				18B998AD1BF0D176006B3FBB /* Schedule.m in Sources */,
 				18B998821BF07574006B3FBB /* ScheduleView.m in Sources */,
 				C26CF85D1BF05CD8006E1D5E /* AppDelegate.m in Sources */,
+				182833C81BF229870034DB33 /* ListTableViewController.m in Sources */,
 				C26CF85A1BF05CD8006E1D5E /* main.m in Sources */,
 				18B998A11BF08D68006B3FBB /* SelectDateView.m in Sources */,
 				C26CF8891BF05E1A006E1D5E /* DailyViewController.m in Sources */,
+				182833D31BF22CCC0034DB33 /* InfoViewController.m in Sources */,
 				C26CF88C1BF05E24006E1D5E /* QRViewController.m in Sources */,
 				C26CF88F1BF05E44006E1D5E /* LookDiaryViewController.m in Sources */,
 				18B998A41BF09357006B3FBB /* ScheduleInfoController.m in Sources */,
@@ -671,7 +707,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				GCC_PREFIX_HEADER = team/xinqing/Header/PrefixHeader.pch;
+				GCC_PREFIX_HEADER = /Users/apple/Teams/team/team/xinqing/Header/PrefixHeader.pch;
 				INFOPLIST_FILE = team/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -685,7 +721,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				GCC_PREFIX_HEADER = team/xinqing/Header/PrefixHeader.pch;
+				GCC_PREFIX_HEADER = /Users/apple/Teams/team/team/xinqing/Header/PrefixHeader.pch;
 				INFOPLIST_FILE = team/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

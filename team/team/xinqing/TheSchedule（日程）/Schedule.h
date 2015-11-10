@@ -11,4 +11,5 @@
 @interface Schedule : NSObject
 @property (nonatomic,strong)NSString *infoStr;
 @property (nonatomic,strong)NSString *dateStr;
+@property (nonatomic,strong)NSString *timeStr;
 @end
