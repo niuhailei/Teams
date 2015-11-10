@@ -32,5 +32,29 @@
 #import "WriteViewController.h"
 
 
+//日记
+//#import "Contact.h"
+//#import "dataDictionary.h"
+//天气
+
+#import "Weather.h"
+
+#pragma mark 天气cell
+#import "FirstCell.h"
+#import "SecondCell.h"
+#import "FourCell.h"
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 #endif /* PrefixHeader_pch */
