@@ -7,12 +7,12 @@
 //
 
 #import "WriteViewController.h"
-
+#import "ViewImg1.h"
 @interface WriteViewController ()
 
 //存放模板的数组
 @property(nonatomic,strong)NSArray *imageArray;
-
+@property (nonatomic,strong)ViewImg1 *ViewImg1;
 
 @end
 
@@ -23,24 +23,38 @@
         NSMutableArray *muArr = [NSMutableArray new];
         
         //设置imageView的宽高适应图片宽高
-        UIImage *image1 = [UIImage imageNamed:@"yuantu"];
+        UIImage *image1 = [UIImage imageNamed:@"jian.jpg"];
+        
         UIImageView *imageV1 = [[UIImageView alloc] initWithImage:image1];
-        imageV1.frame = CGRectMake(0, 0, image1.size.width,image1.size.height);
+        imageV1.frame = CGRectMake(0, 69, Width,image1.size.height * (Width/image1.size.width));
+        
+        //        imageV1.frame = Bounds;
+        
         
         UIImage *image2 = [UIImage imageNamed:@"tui1"];
         UIImageView *imageV2 = [[UIImageView alloc] initWithImage:image2];
-        imageV2.frame = CGRectMake(0, 0, image2.size.width,image2.size.height);
+        //        imageV2.frame = CGRectMake(0, 0, image2.size.width,image2.size.height);
+        imageV2.frame = CGRectMake(0, 69, Width,image2.size.height * (Width/image1.size.width));
+        
+        
+        //        imageV2.frame = Bounds;
         
         
         UIImage *image3 = [UIImage imageNamed:@"t3"];
         UIImageView *imageV3 = [[UIImageView alloc] initWithImage:image3];
-        imageV3.frame = CGRectMake(0, 0, image3.size.width, image3.size.height);
+        //        imageV3.frame = CGRectMake(0, 0, image3.size.width, image3.size.height);
+        imageV3.frame = CGRectMake(0, 69, Width, image3.size.height * (Width/image1.size.width));
+        
+        //        imageV3.frame = Bounds;
+        
+        
         
         UIImage *image4 = [UIImage imageNamed:@"tu3"];
         UIImageView *imageV4 = [[UIImageView alloc] initWithImage:image4];
-        imageV4.frame = CGRectMake(0, 0, image4.size.width, image4.size.height);
+        //        imageV4.frame = CGRectMake(0, 0, image4.size.width, image4.size.height);
+        imageV4.frame = CGRectMake(0, 69, Width, image4.size.height * (Width/image1.size.width));
         
-        
+        //        imageV4.frame = Bounds;
         
         
         //将图片添加到数组，在给cell赋值是调用
@@ -55,15 +69,33 @@
 }
 
 
+- (void)loadView
+{
+    if (self.indexPath == 0) {
+        
+       
+        
+        self.ViewImg1 = [[ViewImg1 alloc] initWithFrame:Bounds];
+        self.view = self.ViewImg1;
+        
+        self.ViewImg1.backgroundColor = [UIColor whiteColor];
+        
+    }
+    
+}
+
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    self.view.backgroundColor = [UIColor whiteColor];
-    
-    UIImageView *imageV = self.imageArray[self.indexPath];
     
     
-    [self.view addSubview:imageV];
+    
+    
+    
+    
+    
+    
     
 }
 

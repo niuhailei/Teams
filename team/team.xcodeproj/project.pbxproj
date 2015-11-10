@@ -28,6 +28,8 @@
 		C26C98221BF1EC8E00E70CE4 /* DataHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = C26C98211BF1EC8E00E70CE4 /* DataHelper.m */; };
 		C26C98241BF1ECA700E70CE4 /* YC.Storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C26C98231BF1ECA700E70CE4 /* YC.Storyboard */; };
 		C26C98261BF1ED0000E70CE4 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C26C98251BF1ED0000E70CE4 /* CoreLocation.framework */; };
+		C26C982A1BF20E4B00E70CE4 /* ViewImg1.m in Sources */ = {isa = PBXBuildFile; fileRef = C26C98291BF20E4B00E70CE4 /* ViewImg1.m */; settings = {ASSET_TAGS = (); }; };
+		C26C982C1BF219D400E70CE4 /* 111.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C26C982B1BF219D400E70CE4 /* 111.jpg */; settings = {ASSET_TAGS = (); }; };
 		C26CF85A1BF05CD8006E1D5E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C26CF8591BF05CD8006E1D5E /* main.m */; };
 		C26CF85D1BF05CD8006E1D5E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C26CF85C1BF05CD8006E1D5E /* AppDelegate.m */; };
 		C26CF8601BF05CD8006E1D5E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C26CF85F1BF05CD8006E1D5E /* ViewController.m */; };
@@ -97,6 +99,9 @@
 		C26C98211BF1EC8E00E70CE4 /* DataHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataHelper.m; sourceTree = "<group>"; };
 		C26C98231BF1ECA700E70CE4 /* YC.Storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = YC.Storyboard; sourceTree = "<group>"; };
 		C26C98251BF1ED0000E70CE4 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		C26C98281BF20E4B00E70CE4 /* ViewImg1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewImg1.h; sourceTree = "<group>"; };
+		C26C98291BF20E4B00E70CE4 /* ViewImg1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewImg1.m; sourceTree = "<group>"; };
+		C26C982B1BF219D400E70CE4 /* 111.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 111.jpg; sourceTree = "<group>"; };
 		C26CF8551BF05CD8006E1D5E /* team.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = team.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C26CF8591BF05CD8006E1D5E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C26CF85B1BF05CD8006E1D5E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -190,6 +195,16 @@
 				C26C98211BF1EC8E00E70CE4 /* DataHelper.m */,
 			);
 			name = "工具";
+			sourceTree = "<group>";
+		};
+		C26C98271BF20E0900E70CE4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C26C98281BF20E4B00E70CE4 /* ViewImg1.h */,
+				C26C98291BF20E4B00E70CE4 /* ViewImg1.m */,
+				C26C982B1BF219D400E70CE4 /* 111.jpg */,
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 		C26CF84C1BF05CD8006E1D5E = {
@@ -419,6 +434,7 @@
 				C2CC993B1BF0E87300246596 /* WriteViewController.h */,
 				C2CC993C1BF0E87300246596 /* WriteViewController.m */,
 				C2772BC11BF17E1D004EE0E6 /* mohu.png */,
+				C26C98271BF20E0900E70CE4 /* View */,
 			);
 			path = WriteDiary;
 			sourceTree = "<group>";
@@ -494,6 +510,7 @@
 				C26C98141BF1EC5D00E70CE4 /* FourCell.xib in Resources */,
 				C26C981E1BF1EC7600E70CE4 /* weather.jpg in Resources */,
 				C29D3FFE1BF0E40B00CABAF9 /* NIU.storyboard in Resources */,
+				C26C982C1BF219D400E70CE4 /* 111.jpg in Resources */,
 				C26C98121BF1EC5D00E70CE4 /* SecondCell.xib in Resources */,
 				C2772BCB1BF1DA6C004EE0E6 /* tu.jpg in Resources */,
 				C26C98191BF1EC6E00E70CE4 /* Weather_Json.txt in Resources */,
@@ -527,6 +544,7 @@
 				C26CF8831BF05DDB006E1D5E /* ScheduleViewController.m in Sources */,
 				C26C98221BF1EC8E00E70CE4 /* DataHelper.m in Sources */,
 				C26CF8981BF05E79006E1D5E /* BirthdayViewController.m in Sources */,
+				C26C982A1BF20E4B00E70CE4 /* ViewImg1.m in Sources */,
 				C2CC993E1BF0E87300246596 /* WaterFallUICollectionViewCell.m in Sources */,
 				C26C98181BF1EC6E00E70CE4 /* Weather.m in Sources */,
 				18B998AD1BF0D176006B3FBB /* Schedule.m in Sources */,
@@ -655,7 +673,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PREFIX_HEADER = team/xinqing/Header/PrefixHeader.pch;
 				INFOPLIST_FILE = team/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = niuhailei.team;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -669,7 +687,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PREFIX_HEADER = team/xinqing/Header/PrefixHeader.pch;
 				INFOPLIST_FILE = team/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = niuhailei.team;
 				PRODUCT_NAME = "$(TARGET_NAME)";
