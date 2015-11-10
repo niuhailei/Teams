@@ -60,6 +60,10 @@
 		C2772BD21BF1DA74004EE0E6 /* tu3.png in Resources */ = {isa = PBXBuildFile; fileRef = C2772BCE1BF1DA74004EE0E6 /* tu3.png */; };
 		C2772BD31BF1DA74004EE0E6 /* tui1.png in Resources */ = {isa = PBXBuildFile; fileRef = C2772BCF1BF1DA74004EE0E6 /* tui1.png */; };
 		C2772BD41BF1DA74004EE0E6 /* yuantu.png in Resources */ = {isa = PBXBuildFile; fileRef = C2772BD01BF1DA74004EE0E6 /* yuantu.png */; };
+		C2772C0B1BF22890004EE0E6 /* InfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2772C091BF22890004EE0E6 /* InfoViewController.m */; settings = {ASSET_TAGS = (); }; };
+		C2772C0C1BF22890004EE0E6 /* InfoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C2772C0A1BF22890004EE0E6 /* InfoViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		C2772C0F1BF22916004EE0E6 /* MainNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2772C0E1BF22916004EE0E6 /* MainNavigationViewController.m */; settings = {ASSET_TAGS = (); }; };
+		C2772C121BF22D6D004EE0E6 /* ListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2772C111BF22D6D004EE0E6 /* ListTableViewController.m */; settings = {ASSET_TAGS = (); }; };
 		C29D3FFE1BF0E40B00CABAF9 /* NIU.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C29D3FFD1BF0E40B00CABAF9 /* NIU.storyboard */; };
 		C2CC993D1BF0E87300246596 /* WaterFallFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = C2CC99361BF0E87300246596 /* WaterFallFlowLayout.m */; };
 		C2CC993E1BF0E87300246596 /* WaterFallUICollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C2CC99381BF0E87300246596 /* WaterFallUICollectionViewCell.m */; };
@@ -153,6 +157,13 @@
 		C2772BCE1BF1DA74004EE0E6 /* tu3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tu3.png; sourceTree = "<group>"; };
 		C2772BCF1BF1DA74004EE0E6 /* tui1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tui1.png; sourceTree = "<group>"; };
 		C2772BD01BF1DA74004EE0E6 /* yuantu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yuantu.png; sourceTree = "<group>"; };
+		C2772C081BF22890004EE0E6 /* InfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoViewController.h; sourceTree = "<group>"; };
+		C2772C091BF22890004EE0E6 /* InfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfoViewController.m; sourceTree = "<group>"; };
+		C2772C0A1BF22890004EE0E6 /* InfoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InfoViewController.xib; sourceTree = "<group>"; };
+		C2772C0D1BF22916004EE0E6 /* MainNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainNavigationViewController.h; sourceTree = "<group>"; };
+		C2772C0E1BF22916004EE0E6 /* MainNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainNavigationViewController.m; sourceTree = "<group>"; };
+		C2772C101BF22D6D004EE0E6 /* ListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListTableViewController.h; sourceTree = "<group>"; };
+		C2772C111BF22D6D004EE0E6 /* ListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListTableViewController.m; sourceTree = "<group>"; };
 		C29D3FFD1BF0E40B00CABAF9 /* NIU.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = NIU.storyboard; sourceTree = "<group>"; };
 		C2CC99351BF0E87300246596 /* WaterFallFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaterFallFlowLayout.h; sourceTree = "<group>"; };
 		C2CC99361BF0E87300246596 /* WaterFallFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaterFallFlowLayout.m; sourceTree = "<group>"; };
@@ -343,6 +354,8 @@
 				182833D61BF22CE50034DB33 /* MainNavigationViewController.m */,
 				C26CF8991BF05E82006E1D5E /* MainViewController.h */,
 				C26CF89A1BF05E82006E1D5E /* MainViewController.m */,
+				C2772C0D1BF22916004EE0E6 /* MainNavigationViewController.h */,
+				C2772C0E1BF22916004EE0E6 /* MainNavigationViewController.m */,
 			);
 			path = MainViewController;
 			sourceTree = "<group>";
@@ -368,9 +381,15 @@
 		C26CF87A1BF05CE7006E1D5E /* StarTheInterface */ = {
 			isa = PBXGroup;
 			children = (
+<<<<<<< HEAD
+				C2772C081BF22890004EE0E6 /* InfoViewController.h */,
+				C2772C091BF22890004EE0E6 /* InfoViewController.m */,
+				C2772C0A1BF22890004EE0E6 /* InfoViewController.xib */,
+=======
 				182833D01BF22CCC0034DB33 /* InfoViewController.h */,
 				182833D11BF22CCC0034DB33 /* InfoViewController.m */,
 				182833D21BF22CCC0034DB33 /* InfoViewController.xib */,
+>>>>>>> cab820ea06ba3a0681da92e71539ba57888e0f1e
 			);
 			path = StarTheInterface;
 			sourceTree = "<group>";
@@ -388,9 +407,14 @@
 		C26CF87C1BF05CE7006E1D5E /* TheSchedule（日程） */ = {
 			isa = PBXGroup;
 			children = (
+<<<<<<< HEAD
+				C2772C101BF22D6D004EE0E6 /* ListTableViewController.h */,
+				C2772C111BF22D6D004EE0E6 /* ListTableViewController.m */,
+=======
 				182833C91BF2299C0034DB33 /* 标签_项目 */,
 				182833C61BF229870034DB33 /* ListTableViewController.h */,
 				182833C71BF229870034DB33 /* ListTableViewController.m */,
+>>>>>>> cab820ea06ba3a0681da92e71539ba57888e0f1e
 				C26CF8811BF05DDB006E1D5E /* ScheduleViewController.h */,
 				C26CF8821BF05DDB006E1D5E /* ScheduleViewController.m */,
 				18B998801BF07574006B3FBB /* ScheduleView.h */,
@@ -548,8 +572,12 @@
 				C26C98191BF1EC6E00E70CE4 /* Weather_Json.txt in Resources */,
 				C26CF8651BF05CD8006E1D5E /* Assets.xcassets in Resources */,
 				C2772BCA1BF1DA6C004EE0E6 /* jiang4.jpg in Resources */,
+<<<<<<< HEAD
+				C2772C0C1BF22890004EE0E6 /* InfoViewController.xib in Resources */,
+=======
 				182833CD1BF2299C0034DB33 /* hong1.png in Resources */,
 				182833CF1BF2299C0034DB33 /* lan.png in Resources */,
+>>>>>>> cab820ea06ba3a0681da92e71539ba57888e0f1e
 				C26CF8631BF05CD8006E1D5E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -575,6 +603,8 @@
 				182833D71BF22CE50034DB33 /* MainNavigationViewController.m in Sources */,
 				18B9988A1BF08225006B3FBB /* ScheduleCell.m in Sources */,
 				18B998AA1BF093C5006B3FBB /* ScheduleInfoView.m in Sources */,
+				C2772C0F1BF22916004EE0E6 /* MainNavigationViewController.m in Sources */,
+				C2772C121BF22D6D004EE0E6 /* ListTableViewController.m in Sources */,
 				C26CF8831BF05DDB006E1D5E /* ScheduleViewController.m in Sources */,
 				C26C98221BF1EC8E00E70CE4 /* DataHelper.m in Sources */,
 				C26CF8981BF05E79006E1D5E /* BirthdayViewController.m in Sources */,
@@ -588,7 +618,11 @@
 				C26CF85A1BF05CD8006E1D5E /* main.m in Sources */,
 				18B998A11BF08D68006B3FBB /* SelectDateView.m in Sources */,
 				C26CF8891BF05E1A006E1D5E /* DailyViewController.m in Sources */,
+<<<<<<< HEAD
+				C2772C0B1BF22890004EE0E6 /* InfoViewController.m in Sources */,
+=======
 				182833D31BF22CCC0034DB33 /* InfoViewController.m in Sources */,
+>>>>>>> cab820ea06ba3a0681da92e71539ba57888e0f1e
 				C26CF88C1BF05E24006E1D5E /* QRViewController.m in Sources */,
 				C26CF88F1BF05E44006E1D5E /* LookDiaryViewController.m in Sources */,
 				18B998A41BF09357006B3FBB /* ScheduleInfoController.m in Sources */,
@@ -707,7 +741,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+<<<<<<< HEAD
+				GCC_PREFIX_HEADER = "/Users/lanou3g/Desktop/生活助手/team/team/xinqing/Header/PrefixHeader.pch";
+=======
 				GCC_PREFIX_HEADER = /Users/apple/Teams/team/team/xinqing/Header/PrefixHeader.pch;
+>>>>>>> cab820ea06ba3a0681da92e71539ba57888e0f1e
 				INFOPLIST_FILE = team/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -721,7 +759,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+<<<<<<< HEAD
+				GCC_PREFIX_HEADER = "/Users/lanou3g/Desktop/生活助手/team/team/xinqing/Header/PrefixHeader.pch";
+=======
 				GCC_PREFIX_HEADER = /Users/apple/Teams/team/team/xinqing/Header/PrefixHeader.pch;
+>>>>>>> cab820ea06ba3a0681da92e71539ba57888e0f1e
 				INFOPLIST_FILE = team/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
