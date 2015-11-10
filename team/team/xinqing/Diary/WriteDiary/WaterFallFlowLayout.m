@@ -14,7 +14,7 @@ CGFloat const colCount = 2;
 
 //准备布局：得到cell的总个数，为每个cell确定自己的位置
 - (void)prepareLayout{
-    [super prepareLayout];
+   // [super prepareLayout];
     NSLog(@"prepareLayout");
     _colArr = [NSMutableArray array];
     _attributeDict = [NSMutableDictionary dictionary];

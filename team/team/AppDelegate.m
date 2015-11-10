@@ -17,10 +17,10 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
-    self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
-    self.window.backgroundColor = [UIColor whiteColor];
-    UINavigationController *rootNC = [[UINavigationController alloc]initWithRootViewController:[ScheduleViewController new]];
-    self.window.rootViewController = rootNC;
+//    self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
+//    self.window.backgroundColor = [UIColor whiteColor];
+//    UINavigationController *rootNC = [[UINavigationController alloc]initWithRootViewController:[ScheduleViewController new]];
+//    self.window.rootViewController = rootNC;
     
     
     return YES;
