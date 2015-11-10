@@ -51,6 +51,7 @@ static NSString *const cellID = @"bb";
     Schedule *schedule = [[Schedule alloc]init];
     schedule.dateStr = self.dateStr;
     schedule.infoStr = scheduleStr;
+    schedule.timeStr = self.timeStr;
     [[Helper sharedManager].mScheduleArr addObject:schedule];
     
     [self.navigationController popToViewController:listSchedule animated:YES];

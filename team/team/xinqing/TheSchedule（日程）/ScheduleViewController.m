@@ -97,17 +97,16 @@ static NSString *const cellID = @"aa";
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
-    
     ScheduleCell *cell = [tableView dequeueReusableCellWithIdentifier:cellID forIndexPath:indexPath];
- //   ScheduleInfoController *scheduleInfo = [ScheduleInfoController new];
-//    scheduleInfo.result = ^(NSString *infoStr){
-//        cell.introLabel.text = infoStr;
-//    };
+    //   ScheduleInfoController *scheduleInfo = [ScheduleInfoController new];
+    //    scheduleInfo.result = ^(NSString *infoStr){
+    //        cell.introLabel.text = infoStr;
+    //    };
     
     Schedule *schedule = [Helper sharedManager].mScheduleArr[indexPath.row];
     cell.dateLabel.text = schedule.dateStr;
     cell.introLabel.text = schedule.infoStr;
-    cell.upView.image = [UIImage imageNamed:@"hui"];
+    cell.timeLabel.text = schedule.timeStr;
     return cell;
     
     
@@ -117,7 +116,7 @@ static NSString *const cellID = @"aa";
 
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
-    return kHeight*0.18;
+    return kHeight*0.16;
 }
 
 - (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath{

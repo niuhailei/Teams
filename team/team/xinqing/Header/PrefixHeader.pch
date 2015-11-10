@@ -8,10 +8,17 @@
 
 #ifndef PrefixHeader_pch
 #define PrefixHeader_pch
+<<<<<<< HEAD
 
 
 
 
+=======
+//第三方
+
+//分类
+#import "ListTableViewController.h"
+>>>>>>> cab820ea06ba3a0681da92e71539ba57888e0f1e
 
 
 //日程表格
@@ -41,6 +48,13 @@
 #import "AppDelegate.h"
 #import "MainViewController.h"
 #import "MainNavigationViewController.h"
+#import "Weather.h"
+
+#pragma mark 天气cell
+#import "FirstCell.h"
+#import "SecondCell.h"
+#import "FourCell.h"
+
 
 #import "Weather.h"
 

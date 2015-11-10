@@ -11,4 +11,5 @@ typedef void (^Result)(NSString *);
 @interface ScheduleInfoController : UITableViewController
 @property (nonatomic,copy)Result result;
 @property (nonatomic,strong)NSString *dateStr;
+@property (nonatomic,strong)NSString *timeStr;
 @end
