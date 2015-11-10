@@ -37,14 +37,10 @@
 
 - (void)finishBtnAction:(UIButton *)sender{
     
-    ScheduleViewController *listViewController =(ScheduleViewController *)self.navigationController.viewControllers [0];
-    
     UIDatePicker *datePicker = self.selectDateView.datePicker;
     NSDate *date = datePicker.date;
     NSDateFormatter *format = [[NSDateFormatter alloc] init];
     [format setDateFormat:@"yyyy-MM-dd eee"];
-    listViewController.dateStr = [format stringFromDate:date];
-    NSLog(@"%@",listViewController.dateStr);
     
     
     
