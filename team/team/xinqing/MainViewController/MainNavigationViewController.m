@@ -1,18 +1,18 @@
 //
-//  StarViewController.m
+//  MainNavigationViewController.m
 //  team
 //
-//  Created by lanou3g on 15/11/9.
+//  Created by lanou3g on 15/11/10.
 //  Copyright © 2015年 钮海雷. All rights reserved.
 //
 
-#import "StarViewController.h"
+#import "MainNavigationViewController.h"
 
-@interface StarViewController ()
+@interface MainNavigationViewController ()
 
 @end
 
-@implementation StarViewController
+@implementation MainNavigationViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

@@ -118,8 +118,8 @@ static NSString *identifier = @"collectionView";
 //cell的点击事件
 -(void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath
 {
-    //根据indexPath获取cell
-    WaterFallUICollectionViewCell *cell = (WaterFallUICollectionViewCell *)[self.collecttionView cellForItemAtIndexPath:indexPath];
+//    //根据indexPath获取cell
+//    WaterFallUICollectionViewCell *cell = (WaterFallUICollectionViewCell *)[self.collecttionView cellForItemAtIndexPath:indexPath];
     
     //跳转到编辑界面  并且传入indexPath.row的值
     WriteViewController *writeVC = [[WriteViewController alloc] init];
