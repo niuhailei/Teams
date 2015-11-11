@@ -51,8 +51,6 @@
 		C26CF8951BF05E6A006E1D5E /* CalendarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C26CF8941BF05E6A006E1D5E /* CalendarViewController.m */; };
 		C26CF8981BF05E79006E1D5E /* BirthdayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C26CF8971BF05E79006E1D5E /* BirthdayViewController.m */; };
 		C26CF89B1BF05E82006E1D5E /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C26CF89A1BF05E82006E1D5E /* MainViewController.m */; };
-		C27120621BF2DF13008B7A12 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C27120611BF2DF12008B7A12 /* AVFoundation.framework */; };
-		C27120651BF32CF7008B7A12 /* ModelForMeiwen.m in Sources */ = {isa = PBXBuildFile; fileRef = C27120641BF32CF7008B7A12 /* ModelForMeiwen.m */; settings = {ASSET_TAGS = (); }; };
 		C2772BC21BF17E1D004EE0E6 /* mohu.png in Resources */ = {isa = PBXBuildFile; fileRef = C2772BC11BF17E1D004EE0E6 /* mohu.png */; };
 		C2772BC81BF1DA6C004EE0E6 /* jian.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C2772BC41BF1DA6C004EE0E6 /* jian.jpg */; };
 		C2772BC91BF1DA6C004EE0E6 /* jian3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C2772BC51BF1DA6C004EE0E6 /* jian3.jpg */; };
@@ -147,9 +145,6 @@
 		C26CF8971BF05E79006E1D5E /* BirthdayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BirthdayViewController.m; sourceTree = "<group>"; };
 		C26CF8991BF05E82006E1D5E /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		C26CF89A1BF05E82006E1D5E /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
-		C27120611BF2DF12008B7A12 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
-		C27120631BF32CF7008B7A12 /* ModelForMeiwen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModelForMeiwen.h; sourceTree = "<group>"; };
-		C27120641BF32CF7008B7A12 /* ModelForMeiwen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModelForMeiwen.m; sourceTree = "<group>"; };
 		C2772BC11BF17E1D004EE0E6 /* mohu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mohu.png; sourceTree = "<group>"; };
 		C2772BC41BF1DA6C004EE0E6 /* jian.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = jian.jpg; sourceTree = "<group>"; };
 		C2772BC51BF1DA6C004EE0E6 /* jian3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = jian3.jpg; sourceTree = "<group>"; };
@@ -177,7 +172,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C27120621BF2DF13008B7A12 /* AVFoundation.framework in Frameworks */,
 				C26C98261BF1ED0000E70CE4 /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -245,7 +239,6 @@
 		C26CF84C1BF05CD8006E1D5E = {
 			isa = PBXGroup;
 			children = (
-				C27120611BF2DF12008B7A12 /* AVFoundation.framework */,
 				C26C98251BF1ED0000E70CE4 /* CoreLocation.framework */,
 				C26CF8571BF05CD8006E1D5E /* team */,
 				C26CF8561BF05CD8006E1D5E /* Products */,
@@ -373,8 +366,6 @@
 			children = (
 				C26CF8871BF05E1A006E1D5E /* DailyViewController.h */,
 				C26CF8881BF05E1A006E1D5E /* DailyViewController.m */,
-				C27120631BF32CF7008B7A12 /* ModelForMeiwen.h */,
-				C27120641BF32CF7008B7A12 /* ModelForMeiwen.m */,
 			);
 			path = "RecommendedDaily（每日推荐）";
 			sourceTree = "<group>";
@@ -514,6 +505,7 @@
 				TargetAttributes = {
 					C26CF8541BF05CD8006E1D5E = {
 						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = 6B6YE73TA9;
 					};
 				};
 			};
@@ -602,7 +594,6 @@
 				18B998A11BF08D68006B3FBB /* SelectDateView.m in Sources */,
 				C26CF8891BF05E1A006E1D5E /* DailyViewController.m in Sources */,
 				182833D31BF22CCC0034DB33 /* InfoViewController.m in Sources */,
-				C27120651BF32CF7008B7A12 /* ModelForMeiwen.m in Sources */,
 				C26CF88C1BF05E24006E1D5E /* QRViewController.m in Sources */,
 				C26CF88F1BF05E44006E1D5E /* LookDiaryViewController.m in Sources */,
 				18B998A41BF09357006B3FBB /* ScheduleInfoController.m in Sources */,
@@ -674,7 +665,6 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = niuhailei.team;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -712,7 +702,6 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = niuhailei.team;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -724,21 +713,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-<<<<<<< HEAD
 				GCC_PREFIX_HEADER = team/xinqing/Header/PrefixHeader.pch;
-=======
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)",
-				);
-				GCC_PREFIX_HEADER = "/Users/lanou3g/Desktop/生活助手1/team/team.xcodeproj/team/team/xinqing/Header/PrefixHeader.pch";
->>>>>>> 072d284c769ad58fab11bdaf830ba92fcd264a1b
 				INFOPLIST_FILE = team/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = niuhailei;
+				PRODUCT_BUNDLE_IDENTIFIER = niuhailei.team;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -747,21 +727,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-<<<<<<< HEAD
 				GCC_PREFIX_HEADER = team/xinqing/Header/PrefixHeader.pch;
-=======
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)",
-				);
-				GCC_PREFIX_HEADER = "/Users/lanou3g/Desktop/生活助手1/team/team.xcodeproj/team/team/xinqing/Header/PrefixHeader.pch";
->>>>>>> 072d284c769ad58fab11bdaf830ba92fcd264a1b
 				INFOPLIST_FILE = team/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = niuhailei;
+				PRODUCT_BUNDLE_IDENTIFIER = niuhailei.team;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

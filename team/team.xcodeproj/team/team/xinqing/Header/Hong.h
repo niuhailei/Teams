@@ -21,5 +21,5 @@
 #define Width [UIScreen mainScreen].bounds.size.width
 #define Height [UIScreen mainScreen].bounds.size.height
 
-#define kHTTPMEIRIYIWEN @"http://api.meiriyiwen.com/v2/day?date="
+
 #endif /* Hong_h */

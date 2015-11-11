@@ -224,47 +224,19 @@
 }
 */
 
-//日记界面
 - (IBAction)diaryAction:(UIButton *)sender {
-    
-    WriteDiaryViewController *writeDiary = [WriteDiaryViewController new];
-    [self.navigationController showViewController:writeDiary sender:nil];
-    
 }
-
-//日程安排
 - (IBAction)scheduleAction:(UIButton *)sender {
-    
-    ListTableViewController *listTVC = [[ListTableViewController alloc] init];
-    [self.navigationController showViewController:listTVC sender:nil];
 }
-
-//生日提醒
 - (IBAction)birthdayAction:(UIButton *)sender {
 }
 
-//每日推荐界面
 - (IBAction)recommendedDaily:(UIButton *)sender {
-    
-    DailyViewController *dailyVC = [[UIStoryboard storyboardWithName:@"NIU" bundle:nil] instantiateViewControllerWithIdentifier:@"dailyVC"];;
-    [self.navigationController showViewController:dailyVC sender:nil];
-    
 }
 
-//天气界面
 - (IBAction)weatherAction:(UIButton *)sender {
-
-    tableViewTableViewController *weatherVC = [[UIStoryboard storyboardWithName:@"YC" bundle:nil] instantiateViewControllerWithIdentifier:@"tableViewTable"];
-    [self.navigationController showViewController:weatherVC sender:nil];
-
-
 }
 
-//扫一扫
 - (IBAction)QRCodeAction:(UIButton *)sender {
-    
-    QRViewController *qrVC = [QRViewController new];
-    [self.navigationController showViewController:qrVC sender:nil];
-    
 }
 @end
