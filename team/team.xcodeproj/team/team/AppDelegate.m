@@ -22,29 +22,29 @@
 //    UINavigationController *rootNC = [[UINavigationController alloc]initWithRootViewController:[ScheduleViewController new]];
 //    self.window.rootViewController = rootNC;
     
-    if(![[NSUserDefaults standardUserDefaults] boolForKey:@"firstLaunch"]){
-        [[NSUserDefaults standardUserDefaults] setBool:YES forKey:@"firstLaunch"];
-        
-        InfoViewController *infoVC = [[InfoViewController alloc] init];
-        
-        self.window.rootViewController = infoVC;
-        
-        NSLog(@"第一次启动");
-    }else {
-        
-       NSLog(@"已经不是第一次启动了");
-        
-        MainNavigationViewController *mainNavigationController = [[UIStoryboard storyboardWithName:@"NIU" bundle:nil] instantiateViewControllerWithIdentifier:@"mainNavigation"];
-        
-        
-        self.window.rootViewController = mainNavigationController;
-        
-        
-        
-        
-        
-        
-    }
+//    if(![[NSUserDefaults standardUserDefaults] boolForKey:@"firstLaunch"]){
+//        [[NSUserDefaults standardUserDefaults] setBool:YES forKey:@"firstLaunch"];
+//        
+//        InfoViewController *infoVC = [[InfoViewController alloc] init];
+//        
+//        self.window.rootViewController = infoVC;
+//        
+//        NSLog(@"第一次启动");
+//    }else {
+//        
+//       NSLog(@"已经不是第一次启动了");
+//        
+//        MainNavigationViewController *mainNavigationController = [[UIStoryboard storyboardWithName:@"NIU" bundle:nil] instantiateViewControllerWithIdentifier:@"mainNavigation"];
+//        
+//        
+//        self.window.rootViewController = mainNavigationController;
+//        
+//        
+//        
+//        
+//        
+//        
+//    }
 
     
     

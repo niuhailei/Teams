@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		182833C81BF229870034DB33 /* ListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 182833C71BF229870034DB33 /* ListTableViewController.m */; settings = {ASSET_TAGS = (); }; };
-		182833CD1BF2299C0034DB33 /* hong1.png in Resources */ = {isa = PBXBuildFile; fileRef = 182833CA1BF2299C0034DB33 /* hong1.png */; settings = {ASSET_TAGS = (); }; };
-		182833CE1BF2299C0034DB33 /* hui.png in Resources */ = {isa = PBXBuildFile; fileRef = 182833CB1BF2299C0034DB33 /* hui.png */; settings = {ASSET_TAGS = (); }; };
-		182833CF1BF2299C0034DB33 /* lan.png in Resources */ = {isa = PBXBuildFile; fileRef = 182833CC1BF2299C0034DB33 /* lan.png */; settings = {ASSET_TAGS = (); }; };
-		182833D31BF22CCC0034DB33 /* InfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 182833D11BF22CCC0034DB33 /* InfoViewController.m */; settings = {ASSET_TAGS = (); }; };
-		182833D41BF22CCC0034DB33 /* InfoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 182833D21BF22CCC0034DB33 /* InfoViewController.xib */; settings = {ASSET_TAGS = (); }; };
-		182833D71BF22CE50034DB33 /* MainNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 182833D61BF22CE50034DB33 /* MainNavigationViewController.m */; settings = {ASSET_TAGS = (); }; };
+		182833C81BF229870034DB33 /* ListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 182833C71BF229870034DB33 /* ListTableViewController.m */; };
+		182833CD1BF2299C0034DB33 /* hong1.png in Resources */ = {isa = PBXBuildFile; fileRef = 182833CA1BF2299C0034DB33 /* hong1.png */; };
+		182833CE1BF2299C0034DB33 /* hui.png in Resources */ = {isa = PBXBuildFile; fileRef = 182833CB1BF2299C0034DB33 /* hui.png */; };
+		182833CF1BF2299C0034DB33 /* lan.png in Resources */ = {isa = PBXBuildFile; fileRef = 182833CC1BF2299C0034DB33 /* lan.png */; };
+		182833D31BF22CCC0034DB33 /* InfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 182833D11BF22CCC0034DB33 /* InfoViewController.m */; };
+		182833D41BF22CCC0034DB33 /* InfoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 182833D21BF22CCC0034DB33 /* InfoViewController.xib */; };
+		182833D71BF22CE50034DB33 /* MainNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 182833D61BF22CE50034DB33 /* MainNavigationViewController.m */; };
 		18B998821BF07574006B3FBB /* ScheduleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B998811BF07574006B3FBB /* ScheduleView.m */; };
 		18B9988A1BF08225006B3FBB /* ScheduleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B998891BF08225006B3FBB /* ScheduleCell.m */; };
 		18B9989B1BF08C9E006B3FBB /* SelectDateController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B9989A1BF08C9E006B3FBB /* SelectDateController.m */; };
@@ -35,8 +35,8 @@
 		C26C98221BF1EC8E00E70CE4 /* DataHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = C26C98211BF1EC8E00E70CE4 /* DataHelper.m */; };
 		C26C98241BF1ECA700E70CE4 /* YC.Storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C26C98231BF1ECA700E70CE4 /* YC.Storyboard */; };
 		C26C98261BF1ED0000E70CE4 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C26C98251BF1ED0000E70CE4 /* CoreLocation.framework */; };
-		C26C982A1BF20E4B00E70CE4 /* ViewImg1.m in Sources */ = {isa = PBXBuildFile; fileRef = C26C98291BF20E4B00E70CE4 /* ViewImg1.m */; settings = {ASSET_TAGS = (); }; };
-		C26C982C1BF219D400E70CE4 /* 111.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C26C982B1BF219D400E70CE4 /* 111.jpg */; settings = {ASSET_TAGS = (); }; };
+		C26C982A1BF20E4B00E70CE4 /* ViewImg1.m in Sources */ = {isa = PBXBuildFile; fileRef = C26C98291BF20E4B00E70CE4 /* ViewImg1.m */; };
+		C26C982C1BF219D400E70CE4 /* 111.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C26C982B1BF219D400E70CE4 /* 111.jpg */; };
 		C26CF85A1BF05CD8006E1D5E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C26CF8591BF05CD8006E1D5E /* main.m */; };
 		C26CF85D1BF05CD8006E1D5E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C26CF85C1BF05CD8006E1D5E /* AppDelegate.m */; };
 		C26CF8601BF05CD8006E1D5E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C26CF85F1BF05CD8006E1D5E /* ViewController.m */; };
@@ -67,6 +67,7 @@
 		C2CC993E1BF0E87300246596 /* WaterFallUICollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C2CC99381BF0E87300246596 /* WaterFallUICollectionViewCell.m */; };
 		C2CC993F1BF0E87300246596 /* WriteDiaryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2CC993A1BF0E87300246596 /* WriteDiaryViewController.m */; };
 		C2CC99401BF0E87300246596 /* WriteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2CC993C1BF0E87300246596 /* WriteViewController.m */; };
+		C2F0D4101BF31DC600A4E85C /* ImageViewMine.m in Sources */ = {isa = PBXBuildFile; fileRef = C2F0D40F1BF31DC600A4E85C /* ImageViewMine.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -167,6 +168,8 @@
 		C2CC993A1BF0E87300246596 /* WriteDiaryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WriteDiaryViewController.m; sourceTree = "<group>"; };
 		C2CC993B1BF0E87300246596 /* WriteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WriteViewController.h; sourceTree = "<group>"; };
 		C2CC993C1BF0E87300246596 /* WriteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WriteViewController.m; sourceTree = "<group>"; };
+		C2F0D40E1BF31DC600A4E85C /* ImageViewMine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageViewMine.h; sourceTree = "<group>"; };
+		C2F0D40F1BF31DC600A4E85C /* ImageViewMine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageViewMine.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -233,6 +236,8 @@
 				C26C98281BF20E4B00E70CE4 /* ViewImg1.h */,
 				C26C98291BF20E4B00E70CE4 /* ViewImg1.m */,
 				C26C982B1BF219D400E70CE4 /* 111.jpg */,
+				C2F0D40E1BF31DC600A4E85C /* ImageViewMine.h */,
+				C2F0D40F1BF31DC600A4E85C /* ImageViewMine.m */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -602,6 +607,7 @@
 				C26CF88C1BF05E24006E1D5E /* QRViewController.m in Sources */,
 				C26CF88F1BF05E44006E1D5E /* LookDiaryViewController.m in Sources */,
 				18B998A41BF09357006B3FBB /* ScheduleInfoController.m in Sources */,
+				C2F0D4101BF31DC600A4E85C /* ImageViewMine.m in Sources */,
 				C26CF8951BF05E6A006E1D5E /* CalendarViewController.m in Sources */,
 				C2CC99401BF0E87300246596 /* WriteViewController.m in Sources */,
 			);
@@ -719,11 +725,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+<<<<<<< HEAD
+				GCC_PREFIX_HEADER = team/xinqing/Header/PrefixHeader.pch;
+=======
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
 				GCC_PREFIX_HEADER = "/Users/lanou3g/Desktop/生活助手1/team/team.xcodeproj/team/team/xinqing/Header/PrefixHeader.pch";
+>>>>>>> 072d284c769ad58fab11bdaf830ba92fcd264a1b
 				INFOPLIST_FILE = team/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -738,11 +748,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+<<<<<<< HEAD
+				GCC_PREFIX_HEADER = team/xinqing/Header/PrefixHeader.pch;
+=======
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
 				GCC_PREFIX_HEADER = "/Users/lanou3g/Desktop/生活助手1/team/team.xcodeproj/team/team/xinqing/Header/PrefixHeader.pch";
+>>>>>>> 072d284c769ad58fab11bdaf830ba92fcd264a1b
 				INFOPLIST_FILE = team/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
