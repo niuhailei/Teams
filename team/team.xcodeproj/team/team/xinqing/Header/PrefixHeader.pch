@@ -50,6 +50,16 @@
 #import "FirstCell.h"
 #import "SecondCell.h"
 #import "FourCell.h"
+#import "tableViewTableViewController.h"
+
+
+//扫一扫
+#import "QRViewController.h"
+
+
+//每日推荐
+#import "ModelForMeiwen.h"
+#import "DailyViewController.h"
 
 
 #endif /* PrefixHeader_pch */
