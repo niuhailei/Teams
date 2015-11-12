@@ -41,11 +41,14 @@
      */
     
     
+<<<<<<< HEAD
    self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
     self.window.backgroundColor = [UIColor whiteColor];
     UINavigationController *rootNC = [[UINavigationController alloc]initWithRootViewController:[ListTableViewController new]];
     self.window.rootViewController = rootNC;
     
+=======
+>>>>>>> cb3933924a0d0d308951f1a4afeab9ae801f3678
 //    if(![[NSUserDefaults standardUserDefaults] boolForKey:@"firstLaunch"]){
 //        [[NSUserDefaults standardUserDefaults] setBool:YES forKey:@"firstLaunch"];
 //        
@@ -64,11 +67,19 @@
 //        self.window.rootViewController = mainNavigationController;
 //        
 //        
+<<<<<<< HEAD
     
         
         
         
 // }
+=======
+//        
+//        
+//        
+//        
+//    }
+>>>>>>> cb3933924a0d0d308951f1a4afeab9ae801f3678
 
     
     
