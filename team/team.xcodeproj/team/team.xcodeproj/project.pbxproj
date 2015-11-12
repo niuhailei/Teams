@@ -8,12 +8,36 @@
 
 /* Begin PBXBuildFile section */
 		182833C81BF229870034DB33 /* ListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 182833C71BF229870034DB33 /* ListTableViewController.m */; settings = {ASSET_TAGS = (); }; };
-		182833CD1BF2299C0034DB33 /* hong1.png in Resources */ = {isa = PBXBuildFile; fileRef = 182833CA1BF2299C0034DB33 /* hong1.png */; settings = {ASSET_TAGS = (); }; };
-		182833CE1BF2299C0034DB33 /* hui.png in Resources */ = {isa = PBXBuildFile; fileRef = 182833CB1BF2299C0034DB33 /* hui.png */; settings = {ASSET_TAGS = (); }; };
-		182833CF1BF2299C0034DB33 /* lan.png in Resources */ = {isa = PBXBuildFile; fileRef = 182833CC1BF2299C0034DB33 /* lan.png */; settings = {ASSET_TAGS = (); }; };
 		182833D31BF22CCC0034DB33 /* InfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 182833D11BF22CCC0034DB33 /* InfoViewController.m */; settings = {ASSET_TAGS = (); }; };
 		182833D41BF22CCC0034DB33 /* InfoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 182833D21BF22CCC0034DB33 /* InfoViewController.xib */; settings = {ASSET_TAGS = (); }; };
 		182833D71BF22CE50034DB33 /* MainNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 182833D61BF22CE50034DB33 /* MainNavigationViewController.m */; settings = {ASSET_TAGS = (); }; };
+		182834871BF347F70034DB33 /* ChineseCalendar.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 182834691BF347F70034DB33 /* ChineseCalendar.sqlite */; settings = {ASSET_TAGS = (); }; };
+		182834881BF347F70034DB33 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 1828346B1BF347F70034DB33 /* FMDatabase.m */; settings = {ASSET_TAGS = (); }; };
+		182834891BF347F70034DB33 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 1828346D1BF347F70034DB33 /* FMDatabaseAdditions.m */; settings = {ASSET_TAGS = (); }; };
+		1828348A1BF347F70034DB33 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 1828346F1BF347F70034DB33 /* FMDatabasePool.m */; settings = {ASSET_TAGS = (); }; };
+		1828348B1BF347F70034DB33 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 182834711BF347F70034DB33 /* FMDatabaseQueue.m */; settings = {ASSET_TAGS = (); }; };
+		1828348C1BF347F70034DB33 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 182834741BF347F70034DB33 /* FMResultSet.m */; settings = {ASSET_TAGS = (); }; };
+		1828348D1BF347F70034DB33 /* CYDatetime.m in Sources */ = {isa = PBXBuildFile; fileRef = 182834771BF347F70034DB33 /* CYDatetime.m */; settings = {ASSET_TAGS = (); }; };
+		1828348E1BF347F70034DB33 /* LunarCalendar.m in Sources */ = {isa = PBXBuildFile; fileRef = 182834791BF347F70034DB33 /* LunarCalendar.m */; settings = {ASSET_TAGS = (); }; };
+		1828348F1BF347F70034DB33 /* NSDate+convenience.m in Sources */ = {isa = PBXBuildFile; fileRef = 1828347C1BF347F70034DB33 /* NSDate+convenience.m */; settings = {ASSET_TAGS = (); }; };
+		182834901BF347F70034DB33 /* NSMutableArray+convenience.m in Sources */ = {isa = PBXBuildFile; fileRef = 1828347E1BF347F70034DB33 /* NSMutableArray+convenience.m */; settings = {ASSET_TAGS = (); }; };
+		182834911BF347F70034DB33 /* UIColor+expanded.m in Sources */ = {isa = PBXBuildFile; fileRef = 182834801BF347F70034DB33 /* UIColor+expanded.m */; settings = {ASSET_TAGS = (); }; };
+		182834921BF347F70034DB33 /* UIView+convenience.m in Sources */ = {isa = PBXBuildFile; fileRef = 182834821BF347F70034DB33 /* UIView+convenience.m */; settings = {ASSET_TAGS = (); }; };
+		182834931BF347F70034DB33 /* VRGCalendarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 182834841BF347F70034DB33 /* VRGCalendarView.m */; settings = {ASSET_TAGS = (); }; };
+		182834941BF347F70034DB33 /* CalendarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 182834861BF347F70034DB33 /* CalendarController.m */; settings = {ASSET_TAGS = (); }; };
+		182834961BF348390034DB33 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 182834951BF348390034DB33 /* UIKit.framework */; };
+		182834981BF348460034DB33 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 182834971BF348460034DB33 /* libsqlite3.tbd */; };
+		1828349C1BF368B80034DB33 /* AddScheduleTableController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1828349B1BF368B80034DB33 /* AddScheduleTableController.m */; settings = {ASSET_TAGS = (); }; };
+		1828349F1BF36C1E0034DB33 /* AddScheduleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1828349E1BF36C1E0034DB33 /* AddScheduleView.m */; settings = {ASSET_TAGS = (); }; };
+		182834DD1BF3A5110034DB33 /* BirthdayViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 182834DC1BF3A5110034DB33 /* BirthdayViewCell.m */; settings = {ASSET_TAGS = (); }; };
+		1883D9911BF423AD0002FF2F /* heihei.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1883D9901BF423AD0002FF2F /* heihei.jpg */; settings = {ASSET_TAGS = (); }; };
+		1883D9961BF472350002FF2F /* AddBirthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1883D9951BF472350002FF2F /* AddBirthViewController.m */; settings = {ASSET_TAGS = (); }; };
+		1883D9CC1BF4AC790002FF2F /* HSDatePickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1883D9CA1BF4AC790002FF2F /* HSDatePickerViewController.m */; settings = {ASSET_TAGS = (); }; };
+		1883D9CD1BF4AC790002FF2F /* HSDatePickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1883D9CB1BF4AC790002FF2F /* HSDatePickerViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		1883D9D21BF4B42E0002FF2F /* lanpng.png in Resources */ = {isa = PBXBuildFile; fileRef = 1883D9CE1BF4B42E0002FF2F /* lanpng.png */; settings = {ASSET_TAGS = (); }; };
+		1883D9D31BF4B42E0002FF2F /* lvpng.png in Resources */ = {isa = PBXBuildFile; fileRef = 1883D9CF1BF4B42E0002FF2F /* lvpng.png */; settings = {ASSET_TAGS = (); }; };
+		1883D9D41BF4B42E0002FF2F /* hongpng.png in Resources */ = {isa = PBXBuildFile; fileRef = 1883D9D01BF4B42E0002FF2F /* hongpng.png */; settings = {ASSET_TAGS = (); }; };
+		1883D9D51BF4B42E0002FF2F /* lan2png.png in Resources */ = {isa = PBXBuildFile; fileRef = 1883D9D11BF4B42E0002FF2F /* lan2png.png */; settings = {ASSET_TAGS = (); }; };
 		18B998821BF07574006B3FBB /* ScheduleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B998811BF07574006B3FBB /* ScheduleView.m */; };
 		18B9988A1BF08225006B3FBB /* ScheduleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B998891BF08225006B3FBB /* ScheduleCell.m */; };
 		18B9989B1BF08C9E006B3FBB /* SelectDateController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B9989A1BF08C9E006B3FBB /* SelectDateController.m */; };
@@ -48,7 +72,6 @@
 		C26CF8891BF05E1A006E1D5E /* DailyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C26CF8881BF05E1A006E1D5E /* DailyViewController.m */; };
 		C26CF88C1BF05E24006E1D5E /* QRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C26CF88B1BF05E24006E1D5E /* QRViewController.m */; };
 		C26CF88F1BF05E44006E1D5E /* LookDiaryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C26CF88E1BF05E44006E1D5E /* LookDiaryViewController.m */; };
-		C26CF8951BF05E6A006E1D5E /* CalendarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C26CF8941BF05E6A006E1D5E /* CalendarViewController.m */; };
 		C26CF8981BF05E79006E1D5E /* BirthdayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C26CF8971BF05E79006E1D5E /* BirthdayViewController.m */; };
 		C26CF89B1BF05E82006E1D5E /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C26CF89A1BF05E82006E1D5E /* MainViewController.m */; };
 		C2772BC21BF17E1D004EE0E6 /* mohu.png in Resources */ = {isa = PBXBuildFile; fileRef = C2772BC11BF17E1D004EE0E6 /* mohu.png */; };
@@ -70,14 +93,57 @@
 /* Begin PBXFileReference section */
 		182833C61BF229870034DB33 /* ListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListTableViewController.h; sourceTree = "<group>"; };
 		182833C71BF229870034DB33 /* ListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListTableViewController.m; sourceTree = "<group>"; };
-		182833CA1BF2299C0034DB33 /* hong1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hong1.png; sourceTree = "<group>"; };
-		182833CB1BF2299C0034DB33 /* hui.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hui.png; sourceTree = "<group>"; };
-		182833CC1BF2299C0034DB33 /* lan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lan.png; sourceTree = "<group>"; };
 		182833D01BF22CCC0034DB33 /* InfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoViewController.h; sourceTree = "<group>"; };
 		182833D11BF22CCC0034DB33 /* InfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfoViewController.m; sourceTree = "<group>"; };
 		182833D21BF22CCC0034DB33 /* InfoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InfoViewController.xib; sourceTree = "<group>"; };
 		182833D51BF22CE50034DB33 /* MainNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainNavigationViewController.h; sourceTree = "<group>"; };
 		182833D61BF22CE50034DB33 /* MainNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainNavigationViewController.m; sourceTree = "<group>"; };
+		182834691BF347F70034DB33 /* ChineseCalendar.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = ChineseCalendar.sqlite; sourceTree = "<group>"; };
+		1828346A1BF347F70034DB33 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		1828346B1BF347F70034DB33 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		1828346C1BF347F70034DB33 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		1828346D1BF347F70034DB33 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		1828346E1BF347F70034DB33 /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		1828346F1BF347F70034DB33 /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		182834701BF347F70034DB33 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		182834711BF347F70034DB33 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		182834721BF347F70034DB33 /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		182834731BF347F70034DB33 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		182834741BF347F70034DB33 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		182834761BF347F70034DB33 /* CYDatetime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYDatetime.h; sourceTree = "<group>"; };
+		182834771BF347F70034DB33 /* CYDatetime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYDatetime.m; sourceTree = "<group>"; };
+		182834781BF347F70034DB33 /* LunarCalendar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LunarCalendar.h; sourceTree = "<group>"; };
+		182834791BF347F70034DB33 /* LunarCalendar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LunarCalendar.m; sourceTree = "<group>"; };
+		1828347B1BF347F70034DB33 /* NSDate+convenience.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+convenience.h"; sourceTree = "<group>"; };
+		1828347C1BF347F70034DB33 /* NSDate+convenience.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+convenience.m"; sourceTree = "<group>"; };
+		1828347D1BF347F70034DB33 /* NSMutableArray+convenience.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+convenience.h"; sourceTree = "<group>"; };
+		1828347E1BF347F70034DB33 /* NSMutableArray+convenience.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+convenience.m"; sourceTree = "<group>"; };
+		1828347F1BF347F70034DB33 /* UIColor+expanded.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+expanded.h"; sourceTree = "<group>"; };
+		182834801BF347F70034DB33 /* UIColor+expanded.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+expanded.m"; sourceTree = "<group>"; };
+		182834811BF347F70034DB33 /* UIView+convenience.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+convenience.h"; sourceTree = "<group>"; };
+		182834821BF347F70034DB33 /* UIView+convenience.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+convenience.m"; sourceTree = "<group>"; };
+		182834831BF347F70034DB33 /* VRGCalendarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VRGCalendarView.h; sourceTree = "<group>"; };
+		182834841BF347F70034DB33 /* VRGCalendarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VRGCalendarView.m; sourceTree = "<group>"; };
+		182834851BF347F70034DB33 /* CalendarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarController.h; sourceTree = "<group>"; };
+		182834861BF347F70034DB33 /* CalendarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarController.m; sourceTree = "<group>"; };
+		182834951BF348390034DB33 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		182834971BF348460034DB33 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		1828349A1BF368B80034DB33 /* AddScheduleTableController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddScheduleTableController.h; sourceTree = "<group>"; };
+		1828349B1BF368B80034DB33 /* AddScheduleTableController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddScheduleTableController.m; sourceTree = "<group>"; };
+		1828349D1BF36C1E0034DB33 /* AddScheduleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddScheduleView.h; sourceTree = "<group>"; };
+		1828349E1BF36C1E0034DB33 /* AddScheduleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddScheduleView.m; sourceTree = "<group>"; };
+		182834DB1BF3A5110034DB33 /* BirthdayViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BirthdayViewCell.h; sourceTree = "<group>"; };
+		182834DC1BF3A5110034DB33 /* BirthdayViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BirthdayViewCell.m; sourceTree = "<group>"; };
+		1883D9901BF423AD0002FF2F /* heihei.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = heihei.jpg; sourceTree = "<group>"; };
+		1883D9941BF472350002FF2F /* AddBirthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddBirthViewController.h; sourceTree = "<group>"; };
+		1883D9951BF472350002FF2F /* AddBirthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddBirthViewController.m; sourceTree = "<group>"; };
+		1883D9C91BF4AC790002FF2F /* HSDatePickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSDatePickerViewController.h; sourceTree = "<group>"; };
+		1883D9CA1BF4AC790002FF2F /* HSDatePickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HSDatePickerViewController.m; sourceTree = "<group>"; };
+		1883D9CB1BF4AC790002FF2F /* HSDatePickerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HSDatePickerViewController.xib; sourceTree = "<group>"; };
+		1883D9CE1BF4B42E0002FF2F /* lanpng.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lanpng.png; sourceTree = "<group>"; };
+		1883D9CF1BF4B42E0002FF2F /* lvpng.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lvpng.png; sourceTree = "<group>"; };
+		1883D9D01BF4B42E0002FF2F /* hongpng.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hongpng.png; sourceTree = "<group>"; };
+		1883D9D11BF4B42E0002FF2F /* lan2png.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lan2png.png; sourceTree = "<group>"; };
 		18B998801BF07574006B3FBB /* ScheduleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScheduleView.h; sourceTree = "<group>"; };
 		18B998811BF07574006B3FBB /* ScheduleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScheduleView.m; sourceTree = "<group>"; };
 		18B998841BF0769E006B3FBB /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
@@ -138,8 +204,6 @@
 		C26CF88B1BF05E24006E1D5E /* QRViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QRViewController.m; sourceTree = "<group>"; };
 		C26CF88D1BF05E44006E1D5E /* LookDiaryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LookDiaryViewController.h; sourceTree = "<group>"; };
 		C26CF88E1BF05E44006E1D5E /* LookDiaryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LookDiaryViewController.m; sourceTree = "<group>"; };
-		C26CF8931BF05E6A006E1D5E /* CalendarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarViewController.h; sourceTree = "<group>"; };
-		C26CF8941BF05E6A006E1D5E /* CalendarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarViewController.m; sourceTree = "<group>"; };
 		C26CF8961BF05E79006E1D5E /* BirthdayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BirthdayViewController.h; sourceTree = "<group>"; };
 		C26CF8971BF05E79006E1D5E /* BirthdayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BirthdayViewController.m; sourceTree = "<group>"; };
 		C26CF8991BF05E82006E1D5E /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
@@ -169,6 +233,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				182834981BF348460034DB33 /* libsqlite3.tbd in Frameworks */,
+				182834961BF348390034DB33 /* UIKit.framework in Frameworks */,
 				C26C98261BF1ED0000E70CE4 /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -179,11 +245,87 @@
 		182833C91BF2299C0034DB33 /* 标签_项目 */ = {
 			isa = PBXGroup;
 			children = (
-				182833CA1BF2299C0034DB33 /* hong1.png */,
-				182833CB1BF2299C0034DB33 /* hui.png */,
-				182833CC1BF2299C0034DB33 /* lan.png */,
+				1883D9CE1BF4B42E0002FF2F /* lanpng.png */,
+				1883D9CF1BF4B42E0002FF2F /* lvpng.png */,
+				1883D9D01BF4B42E0002FF2F /* hongpng.png */,
+				1883D9D11BF4B42E0002FF2F /* lan2png.png */,
 			);
 			path = "标签_项目";
+			sourceTree = "<group>";
+		};
+		182834661BF347F70034DB33 /* Calendar */ = {
+			isa = PBXGroup;
+			children = (
+				182834671BF347F70034DB33 /* FMDB */,
+				182834751BF347F70034DB33 /* LunarCalendar */,
+				1828347A1BF347F70034DB33 /* VRGCalendar */,
+			);
+			path = Calendar;
+			sourceTree = "<group>";
+		};
+		182834671BF347F70034DB33 /* FMDB */ = {
+			isa = PBXGroup;
+			children = (
+				182834681BF347F70034DB33 /* Data */,
+				1828346A1BF347F70034DB33 /* FMDatabase.h */,
+				1828346B1BF347F70034DB33 /* FMDatabase.m */,
+				1828346C1BF347F70034DB33 /* FMDatabaseAdditions.h */,
+				1828346D1BF347F70034DB33 /* FMDatabaseAdditions.m */,
+				1828346E1BF347F70034DB33 /* FMDatabasePool.h */,
+				1828346F1BF347F70034DB33 /* FMDatabasePool.m */,
+				182834701BF347F70034DB33 /* FMDatabaseQueue.h */,
+				182834711BF347F70034DB33 /* FMDatabaseQueue.m */,
+				182834721BF347F70034DB33 /* FMDB.h */,
+				182834731BF347F70034DB33 /* FMResultSet.h */,
+				182834741BF347F70034DB33 /* FMResultSet.m */,
+			);
+			path = FMDB;
+			sourceTree = "<group>";
+		};
+		182834681BF347F70034DB33 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				182834691BF347F70034DB33 /* ChineseCalendar.sqlite */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		182834751BF347F70034DB33 /* LunarCalendar */ = {
+			isa = PBXGroup;
+			children = (
+				182834761BF347F70034DB33 /* CYDatetime.h */,
+				182834771BF347F70034DB33 /* CYDatetime.m */,
+				182834781BF347F70034DB33 /* LunarCalendar.h */,
+				182834791BF347F70034DB33 /* LunarCalendar.m */,
+			);
+			path = LunarCalendar;
+			sourceTree = "<group>";
+		};
+		1828347A1BF347F70034DB33 /* VRGCalendar */ = {
+			isa = PBXGroup;
+			children = (
+				1828347B1BF347F70034DB33 /* NSDate+convenience.h */,
+				1828347C1BF347F70034DB33 /* NSDate+convenience.m */,
+				1828347D1BF347F70034DB33 /* NSMutableArray+convenience.h */,
+				1828347E1BF347F70034DB33 /* NSMutableArray+convenience.m */,
+				1828347F1BF347F70034DB33 /* UIColor+expanded.h */,
+				182834801BF347F70034DB33 /* UIColor+expanded.m */,
+				182834811BF347F70034DB33 /* UIView+convenience.h */,
+				182834821BF347F70034DB33 /* UIView+convenience.m */,
+				182834831BF347F70034DB33 /* VRGCalendarView.h */,
+				182834841BF347F70034DB33 /* VRGCalendarView.m */,
+			);
+			path = VRGCalendar;
+			sourceTree = "<group>";
+		};
+		1883D9C81BF4AC790002FF2F /* DATE */ = {
+			isa = PBXGroup;
+			children = (
+				1883D9C91BF4AC790002FF2F /* HSDatePickerViewController.h */,
+				1883D9CA1BF4AC790002FF2F /* HSDatePickerViewController.m */,
+				1883D9CB1BF4AC790002FF2F /* HSDatePickerViewController.xib */,
+			);
+			path = DATE;
 			sourceTree = "<group>";
 		};
 		18B998831BF0769E006B3FBB /* Header */ = {
@@ -234,6 +376,8 @@
 		C26CF84C1BF05CD8006E1D5E = {
 			isa = PBXGroup;
 			children = (
+				182834971BF348460034DB33 /* libsqlite3.tbd */,
+				182834951BF348390034DB33 /* UIKit.framework */,
 				C26C98251BF1ED0000E70CE4 /* CoreLocation.framework */,
 				C26CF8571BF05CD8006E1D5E /* team */,
 				C26CF8561BF05CD8006E1D5E /* Products */,
@@ -295,8 +439,14 @@
 		C26CF8701BF05CE7006E1D5E /* BirthdayReminder */ = {
 			isa = PBXGroup;
 			children = (
+				1883D9C81BF4AC790002FF2F /* DATE */,
 				C26CF8961BF05E79006E1D5E /* BirthdayViewController.h */,
 				C26CF8971BF05E79006E1D5E /* BirthdayViewController.m */,
+				182834DB1BF3A5110034DB33 /* BirthdayViewCell.h */,
+				182834DC1BF3A5110034DB33 /* BirthdayViewCell.m */,
+				1883D9941BF472350002FF2F /* AddBirthViewController.h */,
+				1883D9951BF472350002FF2F /* AddBirthViewController.m */,
+				1883D9901BF423AD0002FF2F /* heihei.jpg */,
 			);
 			path = BirthdayReminder;
 			sourceTree = "<group>";
@@ -304,8 +454,9 @@
 		C26CF8711BF05CE7006E1D5E /* Calendar（日历） */ = {
 			isa = PBXGroup;
 			children = (
-				C26CF8931BF05E6A006E1D5E /* CalendarViewController.h */,
-				C26CF8941BF05E6A006E1D5E /* CalendarViewController.m */,
+				182834661BF347F70034DB33 /* Calendar */,
+				182834851BF347F70034DB33 /* CalendarController.h */,
+				182834861BF347F70034DB33 /* CalendarController.m */,
 			);
 			path = "Calendar（日历）";
 			sourceTree = "<group>";
@@ -393,6 +544,10 @@
 				182833C71BF229870034DB33 /* ListTableViewController.m */,
 				C26CF8811BF05DDB006E1D5E /* ScheduleViewController.h */,
 				C26CF8821BF05DDB006E1D5E /* ScheduleViewController.m */,
+				1828349A1BF368B80034DB33 /* AddScheduleTableController.h */,
+				1828349B1BF368B80034DB33 /* AddScheduleTableController.m */,
+				1828349D1BF36C1E0034DB33 /* AddScheduleView.h */,
+				1828349E1BF36C1E0034DB33 /* AddScheduleView.m */,
 				18B998801BF07574006B3FBB /* ScheduleView.h */,
 				18B998811BF07574006B3FBB /* ScheduleView.m */,
 				18B998881BF08225006B3FBB /* ScheduleCell.h */,
@@ -529,27 +684,31 @@
 			files = (
 				C2772BD11BF1DA74004EE0E6 /* t3.png in Resources */,
 				C26CF8681BF05CD8006E1D5E /* LaunchScreen.storyboard in Resources */,
-				182833CE1BF2299C0034DB33 /* hui.png in Resources */,
+				182834871BF347F70034DB33 /* ChineseCalendar.sqlite in Resources */,
 				C2772BD41BF1DA74004EE0E6 /* yuantu.png in Resources */,
 				C2772BD31BF1DA74004EE0E6 /* tui1.png in Resources */,
 				C2772BC81BF1DA6C004EE0E6 /* jian.jpg in Resources */,
 				C2772BD21BF1DA74004EE0E6 /* tu3.png in Resources */,
 				C26C98241BF1ECA700E70CE4 /* YC.Storyboard in Resources */,
 				C2772BC91BF1DA6C004EE0E6 /* jian3.jpg in Resources */,
+				1883D9D31BF4B42E0002FF2F /* lvpng.png in Resources */,
+				1883D9D41BF4B42E0002FF2F /* hongpng.png in Resources */,
 				C2772BC21BF17E1D004EE0E6 /* mohu.png in Resources */,
 				182833D41BF22CCC0034DB33 /* InfoViewController.xib in Resources */,
+				1883D9911BF423AD0002FF2F /* heihei.jpg in Resources */,
 				C26C98101BF1EC5D00E70CE4 /* FirstCell.xib in Resources */,
 				C26C98141BF1EC5D00E70CE4 /* FourCell.xib in Resources */,
+				1883D9D51BF4B42E0002FF2F /* lan2png.png in Resources */,
 				C26C981E1BF1EC7600E70CE4 /* weather.jpg in Resources */,
 				C29D3FFE1BF0E40B00CABAF9 /* NIU.storyboard in Resources */,
 				C26C982C1BF219D400E70CE4 /* 111.jpg in Resources */,
 				C26C98121BF1EC5D00E70CE4 /* SecondCell.xib in Resources */,
 				C2772BCB1BF1DA6C004EE0E6 /* tu.jpg in Resources */,
 				C26C98191BF1EC6E00E70CE4 /* Weather_Json.txt in Resources */,
+				1883D9CD1BF4AC790002FF2F /* HSDatePickerViewController.xib in Resources */,
+				1883D9D21BF4B42E0002FF2F /* lanpng.png in Resources */,
 				C26CF8651BF05CD8006E1D5E /* Assets.xcassets in Resources */,
 				C2772BCA1BF1DA6C004EE0E6 /* jiang4.jpg in Resources */,
-				182833CD1BF2299C0034DB33 /* hong1.png in Resources */,
-				182833CF1BF2299C0034DB33 /* lan.png in Resources */,
 				C26CF8631BF05CD8006E1D5E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -561,11 +720,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1828348D1BF347F70034DB33 /* CYDatetime.m in Sources */,
 				C26CF8601BF05CD8006E1D5E /* ViewController.m in Sources */,
 				C26CF8801BF05DC8006E1D5E /* WeatherViewController.m in Sources */,
 				18B9989B1BF08C9E006B3FBB /* SelectDateController.m in Sources */,
 				C26C98111BF1EC5D00E70CE4 /* SecondCell.m in Sources */,
 				C26C98131BF1EC5D00E70CE4 /* FourCell.m in Sources */,
+				1828348F1BF347F70034DB33 /* NSDate+convenience.m in Sources */,
 				18B998B01BF0D277006B3FBB /* Helper.m in Sources */,
 				C2CC993F1BF0E87300246596 /* WriteDiaryViewController.m in Sources */,
 				C26CF89B1BF05E82006E1D5E /* MainViewController.m in Sources */,
@@ -573,27 +734,42 @@
 				C26C980F1BF1EC5D00E70CE4 /* FirstCell.m in Sources */,
 				C2CC993D1BF0E87300246596 /* WaterFallFlowLayout.m in Sources */,
 				182833D71BF22CE50034DB33 /* MainNavigationViewController.m in Sources */,
+				1828348B1BF347F70034DB33 /* FMDatabaseQueue.m in Sources */,
+				1828348E1BF347F70034DB33 /* LunarCalendar.m in Sources */,
 				18B9988A1BF08225006B3FBB /* ScheduleCell.m in Sources */,
+				1883D9CC1BF4AC790002FF2F /* HSDatePickerViewController.m in Sources */,
+				1828348A1BF347F70034DB33 /* FMDatabasePool.m in Sources */,
 				18B998AA1BF093C5006B3FBB /* ScheduleInfoView.m in Sources */,
+				1828349C1BF368B80034DB33 /* AddScheduleTableController.m in Sources */,
+				182834941BF347F70034DB33 /* CalendarController.m in Sources */,
 				C26CF8831BF05DDB006E1D5E /* ScheduleViewController.m in Sources */,
+				182834921BF347F70034DB33 /* UIView+convenience.m in Sources */,
 				C26C98221BF1EC8E00E70CE4 /* DataHelper.m in Sources */,
 				C26CF8981BF05E79006E1D5E /* BirthdayViewController.m in Sources */,
 				C26C982A1BF20E4B00E70CE4 /* ViewImg1.m in Sources */,
 				C2CC993E1BF0E87300246596 /* WaterFallUICollectionViewCell.m in Sources */,
+				182834891BF347F70034DB33 /* FMDatabaseAdditions.m in Sources */,
 				C26C98181BF1EC6E00E70CE4 /* Weather.m in Sources */,
 				18B998AD1BF0D176006B3FBB /* Schedule.m in Sources */,
+				1828348C1BF347F70034DB33 /* FMResultSet.m in Sources */,
+				182834911BF347F70034DB33 /* UIColor+expanded.m in Sources */,
+				182834881BF347F70034DB33 /* FMDatabase.m in Sources */,
+				1828349F1BF36C1E0034DB33 /* AddScheduleView.m in Sources */,
+				182834901BF347F70034DB33 /* NSMutableArray+convenience.m in Sources */,
 				18B998821BF07574006B3FBB /* ScheduleView.m in Sources */,
 				C26CF85D1BF05CD8006E1D5E /* AppDelegate.m in Sources */,
 				182833C81BF229870034DB33 /* ListTableViewController.m in Sources */,
+				1883D9961BF472350002FF2F /* AddBirthViewController.m in Sources */,
 				C26CF85A1BF05CD8006E1D5E /* main.m in Sources */,
 				18B998A11BF08D68006B3FBB /* SelectDateView.m in Sources */,
 				C26CF8891BF05E1A006E1D5E /* DailyViewController.m in Sources */,
 				182833D31BF22CCC0034DB33 /* InfoViewController.m in Sources */,
+				182834931BF347F70034DB33 /* VRGCalendarView.m in Sources */,
 				C26CF88C1BF05E24006E1D5E /* QRViewController.m in Sources */,
 				C26CF88F1BF05E44006E1D5E /* LookDiaryViewController.m in Sources */,
 				18B998A41BF09357006B3FBB /* ScheduleInfoController.m in Sources */,
-				C26CF8951BF05E6A006E1D5E /* CalendarViewController.m in Sources */,
 				C2CC99401BF0E87300246596 /* WriteViewController.m in Sources */,
+				182834DD1BF3A5110034DB33 /* BirthdayViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -707,7 +883,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				GCC_PREFIX_HEADER = /Users/apple/Teams/team/team/xinqing/Header/PrefixHeader.pch;
+				GCC_PREFIX_HEADER = /Users/apple/Desktop/Team/team/team.xcodeproj/team/team/xinqing/Header/PrefixHeader.pch;
 				INFOPLIST_FILE = team/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -721,7 +897,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				GCC_PREFIX_HEADER = /Users/apple/Teams/team/team/xinqing/Header/PrefixHeader.pch;
+				GCC_PREFIX_HEADER = /Users/apple/Desktop/Team/team/team.xcodeproj/team/team/xinqing/Header/PrefixHeader.pch;
 				INFOPLIST_FILE = team/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

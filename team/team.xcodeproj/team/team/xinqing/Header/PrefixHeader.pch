@@ -13,6 +13,9 @@
 //分类
 #import "ListTableViewController.h"
 
+//日历
+
+#import "CalendarController.h"
 
 //日程表格
 #import "ScheduleView.h"
@@ -25,11 +28,17 @@
 //添加具体日程
 #import "ScheduleInfoView.h"
 #import "ScheduleInfoController.h"
+#import "AddScheduleTableController.h"
+#import "AddScheduleView.h"
 
 #import "Schedule.h"
 #import "Helper.h"
 
-
+//生日提醒
+#import "BirthdayViewController.h"
+#import "BirthdayViewCell.h"
+#import "AddBirthViewController.h"
+#import "HSDatePickerViewController.h"
 //编辑心晴日记
 #import "WriteDiaryViewController.h"
 #import "WaterFallFlowLayout.h"

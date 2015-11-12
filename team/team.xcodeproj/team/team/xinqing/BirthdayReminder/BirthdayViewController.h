@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface BirthdayViewController : UIViewController
+@interface BirthdayViewController : UITableViewController
 
 @end

@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-
+#import "CalendarController.h"
 @interface AppDelegate ()
 
 @end
@@ -16,35 +16,59 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    //通知的注册
+    /*
+     //通知的注册，按钮的添加
+     UIMutableUserNotificationAction *action1 = [[UIMutableUserNotificationAction alloc]init];
+     action1.identifier = @"aaa";
+     action1.title = @"确定";
+     action1.activationMode = UIUserNotificationActivationModeForeground;//当点击的时候启动程序
+     action1.authenticationRequired = YES;
+     action1.destructive = YES;
+     
+     UIMutableUserNotificationAction *action2 = [[UIMutableUserNotificationAction alloc]init];
+     action2.identifier = @"bbb";
+     action2.title = @"取消";
+     action2.activationMode = UIUserNotificationActivationModeBackground;
+     
+     UIMutableUserNotificationCategory *categorys = [[UIMutableUserNotificationCategory alloc]init];
+     categorys.identifier = @"ccc";//这组动作的唯一标示
+     [categorys setActions:@[action1,action2] forContext:UIUserNotificationActionContextMinimal];
+     
+     UIUserNotificationSettings *setting = [UIUserNotificationSettings settingsForTypes:UIUserNotificationTypeAlert categories:[NSSet setWithObjects:categorys, nil]];
+     [[UIApplication sharedApplication] registerForRemoteNotifications];
+     [[UIApplication sharedApplication] registerUserNotificationSettings:setting];
+     */
     
-//   self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
-//    self.window.backgroundColor = [UIColor whiteColor];
-//    UINavigationController *rootNC = [[UINavigationController alloc]initWithRootViewController:[ScheduleViewController new]];
-//    self.window.rootViewController = rootNC;
     
-    if(![[NSUserDefaults standardUserDefaults] boolForKey:@"firstLaunch"]){
-        [[NSUserDefaults standardUserDefaults] setBool:YES forKey:@"firstLaunch"];
+   self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
+    self.window.backgroundColor = [UIColor whiteColor];
+    UINavigationController *rootNC = [[UINavigationController alloc]initWithRootViewController:[ListTableViewController new]];
+    self.window.rootViewController = rootNC;
+    
+//    if(![[NSUserDefaults standardUserDefaults] boolForKey:@"firstLaunch"]){
+//        [[NSUserDefaults standardUserDefaults] setBool:YES forKey:@"firstLaunch"];
+//        
+//        InfoViewController *infoVC = [[InfoViewController alloc] init];
+//        
+//        self.window.rootViewController = infoVC;
+//        
+//        NSLog(@"第一次启动");
+//    }else {
+//        
+//       NSLog(@"已经不是第一次启动了");
+//        
+//        MainNavigationViewController *mainNavigationController = [[UIStoryboard storyboardWithName:@"NIU" bundle:nil] instantiateViewControllerWithIdentifier:@"mainNavigation"];
+//        
+//        
+//        self.window.rootViewController = mainNavigationController;
+//        
+//        
+    
         
-        InfoViewController *infoVC = [[InfoViewController alloc] init];
-        
-        self.window.rootViewController = infoVC;
-        
-        NSLog(@"第一次启动");
-    }else {
-        
-       NSLog(@"已经不是第一次启动了");
-        
-        MainNavigationViewController *mainNavigationController = [[UIStoryboard storyboardWithName:@"NIU" bundle:nil] instantiateViewControllerWithIdentifier:@"mainNavigation"];
         
         
-        self.window.rootViewController = mainNavigationController;
-        
-        
-        
-        
-        
-        
-    }
+// }
 
     
     
@@ -52,7 +76,6 @@
     
     return YES;
 }
-
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
     // Use this method to pause ongoing tasks, disable timers, and throttle down OpenGL ES frame rates. Games should use this method to pause the game.

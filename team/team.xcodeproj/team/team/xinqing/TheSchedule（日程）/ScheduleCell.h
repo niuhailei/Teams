@@ -13,4 +13,5 @@
 @property (nonatomic,strong)UILabel *dateLabel;
 @property (nonatomic,strong)UILabel *introLabel;
 @property (nonatomic,strong)UILabel *timeLabel;
+@property (nonatomic,strong)UISwitch *remindSwitch;
 @end
