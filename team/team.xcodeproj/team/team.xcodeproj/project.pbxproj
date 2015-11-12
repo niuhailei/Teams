@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-<<<<<<< HEAD
 		182833C81BF229870034DB33 /* ListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 182833C71BF229870034DB33 /* ListTableViewController.m */; settings = {ASSET_TAGS = (); }; };
 		182833D31BF22CCC0034DB33 /* InfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 182833D11BF22CCC0034DB33 /* InfoViewController.m */; settings = {ASSET_TAGS = (); }; };
 		182833D41BF22CCC0034DB33 /* InfoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 182833D21BF22CCC0034DB33 /* InfoViewController.xib */; settings = {ASSET_TAGS = (); }; };
