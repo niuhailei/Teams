@@ -110,6 +110,11 @@
 - (void)tgrAction:(UIGestureRecognizer *)sender
 {
     [self.ViewImg1.textView resignFirstResponder];
+    
+    CGPoint point = CGPointMake(0, 0);
+    
+    [self.ViewImg1.scrollViewMain setContentOffset:point animated:YES];
+    
 }
 
 
@@ -125,19 +130,41 @@
     //text文字的高度
     CGFloat height = [self getTextViewTextHeight:nil];
     
+    UIImage *image = [UIImage imageNamed:@"jian.jpg"];
     
-    if ([UIScreen mainScreen].bounds.size.height - ((self.ViewImg1.textView.frame.origin.y + textView.frame.size.height)) <= 216) {
+    //判断除去NavagationBar+电量条的高度 = 69;并且出去textView文字高度
+    //
+    //          ________
+     //     69  _|______|
+    //           |      |
+    //           |__    |
+    //  文字高度 _|_ |   |
+    //         __|__|   |___Screen
+    //           |______|
+    
+    if (Height - ((self.ViewImg1.textView.frame.origin.y + textView.frame.size.height + 64)) <= 216) {
         
-        CGFloat offset = ([UIScreen mainScreen].bounds.size.height - ((self.ViewImg1.textView.frame.origin.y + textView.frame.size.height))) - 216 + 69;
-        UIImage *image = [UIImage imageNamed:@"jian.jpg"];
+//        CGFloat offset = (Height - ((self.ViewImg1.textView.frame.origin.y + textView.frame.size.height))) - 216 + 69;
+
         //将试图的Y坐标向上移动offset个单位,以便下面腾出地方用于软键盘的显示
-        self.ViewImg1.frame = CGRectMake(0, 0, [UIScreen mainScreen].bounds.size.width, [UIScreen mainScreen].bounds.size.height);
-        self.ViewImg1.scrollViewMain.frame = CGRectMake(0, 0, Width, height + offset);
         
+//        self.ViewImg1.scrollViewMain.frame = CGRectMake(0, 0, Width, height - offset);
+
+        
+        //ScrollView高度缩减一个键盘的高度
+//        self.ViewImg1.scrollViewMain.frame = CGRectMake(0, 0, Width, self.ViewImg1.frame.size.height -216);
+        
+        //偏移到键盘的地方在减去NavagationBar的高度+电量条的高度
+        CGPoint point = CGPointMake(0, self.ViewImg1.textView.frame.origin.y - 64);
+        
+        [self.ViewImg1.scrollViewMain setContentOffset:point animated:YES];
 //        self.ViewImg1.scrollViewMain.contentSize =  CGSizeMake(Width, [UIScreen mainScreen].bounds.size.height + offset);
         
         
-        [UIView commitAnimations];
+        [UIView beginAnimations:@"ResizeForKeyboard" context:nil];
+        
+        [UIView setAnimationDuration:0.30f];//动画持续时间
+             [UIView commitAnimations];
     }
     
     if ([self.ViewImg1.textView.text isEqualToString:@"人一生有起有落，起的时候不忘落的时候，落的时候想想起的时候，哪里跌倒，哪里站起。\n相信有自信的生命与没自信的生命会有不一样的天地"]) {
@@ -182,6 +209,31 @@
 //结束编辑
 - (void)textViewDidEndEditing:(UITextView *)textView
 {
+//    //text文字的高度
+//    CGFloat height = [self getTextViewTextHeight:nil];
+//    
+//    CGFloat offset = ([UIScreen mainScreen].bounds.size.height - ((self.ViewImg1.textView.frame.origin.y + textView.frame.size.height))) - 216 + 45;
+//    
+//    //将试图的Y坐标向上移动offset个单位,以便下面腾出地方用于软键盘的显示
+//    self.ViewImg1.scrollViewMain.frame = CGRectMake(0, 0, Width, Height);
+////    
+//    CGPoint point = CGPointMake(0, -self.ViewImg1.textView.frame.origin.y - 69);
+//    
+//    [self.ViewImg1.scrollViewMain setContentOffset: point animated:YES];
+
+    //ScrollView高度缩减一个键盘的高度
+//    self.ViewImg1.scrollViewMain.frame = CGRectMake(0, 0, Width, self.ViewImg1.frame.size.height + 216);
+
+
+    
+    //偏移到键盘的地方在减去NavagationBar的高度+电量条的高度
+    CGPoint point = CGPointMake(0, self.ViewImg1.textView.frame.origin.y - 64 );
+    
+    [self.ViewImg1.scrollViewMain setContentOffset:point animated:YES];
+
+    
+    
+    
     self.ViewImg1.frame = self.frameTextView;
     
     if (textView.text) {
